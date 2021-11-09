@@ -48,11 +48,6 @@ setup(
             'eea.api.taxonomy',
             'plone.volto',
             'plone.restapi',
-            
-            #'eea.restapi',
-            #'eea.volto.policy',
-            #'eea.volto.slate',
-            # -*- Extra requirements: -*-
         ],
     extras_require={
         'test': [
