@@ -119,11 +119,28 @@ pipeline {
           //  }
           //},
 
-          "Python3": {
+          "Plone5 & Python3": {
             node(label: 'docker') {
               sh '''docker run -i --rm --name="$BUILD_TAG-python3" -e GIT_BRANCH="$BRANCH_NAME" -e ADDONS="$GIT_NAME" -e DEVELOP="src/$GIT_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/plone-test:5-python3 -v -vv -s $GIT_NAME'''
             }
-          }
+          },
+          "PloneSaaS": {
+            node(label: 'docker') {
+              script {
+               try {
+                  sh '''docker pull eeacms/plonesaas-devel; docker run -i --name="$BUILD_TAG-plonesaas" -e GIT_NAME="$GIT_NAME" -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/plonesaas-devel /debug.sh coverage'''
+                  sh '''mkdir -p xunit-reports; docker cp $BUILD_TAG-plonesaas:/plone/instance/parts/xmltestreport/testreports/. xunit-reports/'''
+                  stash name: "xunit-reports", includes: "xunit-reports/*.xml"
+                  sh '''docker cp $BUILD_TAG-plonesaas:/plone/instance/src/$GIT_NAME/coverage.xml coverage.xml'''
+                  stash name: "coverage.xml", includes: "coverage.xml"
+                } finally {
+                  sh '''docker rm -v $BUILD_TAG-plonesaas'''
+                }
+                junit 'xunit-reports/*.xml'
+              }
+            }
+          },
+
         )
       }
     }
