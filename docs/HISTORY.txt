@@ -3,6 +3,8 @@ Changelog
 
 1.1-dev0 - (unreleased)
 ---------------------------
+* Change: Added plonesaas jenkins test
+  [iulianpetchesi refs #139888]
 
 1.0 - (2021-11-09)
 -----------------------
