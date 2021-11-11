@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.1 - (2021-11-11)
+---------------------------
+* Change: Added plonesaas jenkins test
+  [iulianpetchesi refs #139888]
+
 1.0 - (2021-11-09)
 -----------------------
 
