@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.2 - (2021-11-11)
+---------------------------
+* Change: Fix python version requirement
+  [avoinea]
+
 1.1 - (2021-11-11)
 ---------------------------
 * Change: Added plonesaas jenkins test
