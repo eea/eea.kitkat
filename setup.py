@@ -21,7 +21,6 @@ setup(
         "Environment :: Web Environment",
         "Framework :: Plone",
         "Framework :: Plone :: Addon",
-        "Framework :: Plone",
         "Framework :: Plone :: 5.2",
         "Framework :: Plone :: 6.0",
         "Programming Language :: Python",
@@ -40,7 +39,6 @@ setup(
     namespace_packages=['eea'],
     include_package_data=True,
     zip_safe=False,
-        python_requires="==3.7",
         install_requires=[
             'setuptools',
             'eea.zotero',
