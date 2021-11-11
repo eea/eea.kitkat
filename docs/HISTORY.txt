@@ -1,6 +1,9 @@
 Changelog
 =========
 
+1.2-dev0 - (unreleased)
+---------------------------
+
 1.1 - (2021-11-11)
 ---------------------------
 * Change: Added plonesaas jenkins test
