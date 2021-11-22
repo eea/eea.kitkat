@@ -5,6 +5,16 @@
 
   <i18n:registerTranslations directory="locales" />
 
+  <include package="collective.taxonomy" />
+  <include package="eea.api.layout" />
+  <include package="eea.api.taxonomy" />
+  <include package="eea.geolocation" />
+  <include package="eea.restapi" />
+  <include package="eea.sentry" />
+  <include package="eea.volto.policy" />
+  <include package="eea.zotero" />
+
+
   <include file="profiles.zcml" />
   <include package=".browser" />
   <include package=".upgrades" />
