@@ -6,6 +6,8 @@
   <i18n:registerTranslations directory="locales" />
 
   <include package="collective.taxonomy" />
+  <include package="eea.api.layout" />
+
 
   <include file="profiles.zcml" />
   <include package=".browser" />
