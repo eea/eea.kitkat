@@ -7,6 +7,9 @@
 
   <include package="collective.taxonomy" />
   <include package="eea.api.layout" />
+  <include package="eea.api.taxonomy" />
+  <include package="eea.geolocation" />
+  <include package="eea.sentry" />
 
 
   <include file="profiles.zcml" />
