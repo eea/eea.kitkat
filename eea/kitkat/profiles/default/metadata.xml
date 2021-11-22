@@ -10,8 +10,6 @@
     <dependency>profile-eea.sentry:default</dependency>
     <dependency>profile-eea.volto.policy:default</dependency>
     <dependency>profile-eea.zotero:default</dependency>
-    <dependency>profile-plone.restapi:default</dependency>
-    <dependency>profile-plone.restapi:blocks</dependency>
-    <dependency>profile-plone.volto:default</dependency>
+    <dependency>profile-plone.volto:default-homepage</dependency>
   </dependencies>
 </metadata>
