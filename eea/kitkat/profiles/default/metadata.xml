@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <version>1.0</version>
+  <dependencies>
+    <dependency>profile-collective.taxonomy:default</dependency>
+    <dependency>profile-eea.api.layout:default</dependency>
+    <dependency>profile-eea.api.taxonomy:default</dependency>
+    <dependency>profile-eea.geolocation:default</dependency>
+    <dependency>profile-eea.restapi:default</dependency>
+    <dependency>profile-eea.sentry:default</dependency>
+    <dependency>profile-eea.volto.policy:default</dependency>
+    <dependency>profile-eea.zotero:default</dependency>
+    <dependency>profile-plone.restapi:default</dependency>
+    <dependency>profile-plone.restapi:blocks</dependency>
+    <dependency>profile-plone.volto:default</dependency>
+  </dependencies>
 </metadata>

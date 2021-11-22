@@ -3,6 +3,8 @@ Changelog
 
 1.3-dev0 - (unreleased)
 ---------------------------
+* Change: Added missing dependencies
+  [iulianpetchesi refs #139888]
 
 1.2 - (2021-11-11)
 ---------------------------
