@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.4-dev0 - (unreleased)
+1.4 - (2021-11-23)
 ---------------------------
 * Change: Removed eea.restapi from kitkat
   [iulianpetchesi refs #139888]
