@@ -6,7 +6,6 @@
     <dependency>profile-eea.api.layout:default</dependency>
     <dependency>profile-eea.api.taxonomy:default</dependency>
     <dependency>profile-eea.geolocation:default</dependency>
-    <dependency>profile-eea.restapi:default</dependency>
     <dependency>profile-eea.sentry:default</dependency>
     <dependency>profile-eea.volto.policy:default</dependency>
     <dependency>profile-eea.zotero:default</dependency>
