@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.5 - (2021-12-16)
+---------------------------
+* Change: Add eea.cache
+  [avoinea refs #139888]
+
 1.4 - (2021-11-23)
 ---------------------------
 * Change: Removed eea.restapi from kitkat
