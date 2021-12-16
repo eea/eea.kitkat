@@ -15,4 +15,16 @@
 
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+    source="1.0"
+    destination="1.5"
+    profile="eea.kitkat:default">
+
+    <genericsetup:upgradeDepends
+       title="Install eea.cache"
+       import_profile="eea.cache:default"
+      />
+
+  </genericsetup:upgradeSteps>
+
 </configure>
