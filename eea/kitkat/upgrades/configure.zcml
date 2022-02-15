@@ -27,4 +27,16 @@
 
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+    source="1.5"
+    destination="1.6"
+    profile="eea.kitkat:default">
+
+    <genericsetup:upgradeDepends
+       title="Install eea.banner"
+       import_profile="eea.banner:default"
+      />
+
+  </genericsetup:upgradeSteps>
+
 </configure>

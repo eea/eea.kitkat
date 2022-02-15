@@ -41,6 +41,7 @@ setup(
     zip_safe=False,
         install_requires=[
             'eea.cache',
+            'eea.banner',
             'eea.zotero',
             'eea.api.layout',
             'eea.api.taxonomy',
