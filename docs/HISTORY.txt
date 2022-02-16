@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.6 - (2022-02-15)
+---------------------------
+* Change: Add eea.banner dependency
+  [avoinea]
+
 1.5 - (2021-12-16)
 ---------------------------
 * Change: Add eea.cache
