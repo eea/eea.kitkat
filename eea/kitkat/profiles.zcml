@@ -16,6 +16,15 @@
       />
 
   <genericsetup:registerProfile
+      name="testing"
+      title="eea.kitkat (testing)"
+      directory="profiles/testing"
+      description="Test the eea.kitkat add-on."
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      post_handler=".setuphandlers.post_install"
+      />
+
+  <genericsetup:registerProfile
       name="uninstall"
       title="eea.kitkat (uninstall)"
       directory="profiles/uninstall"

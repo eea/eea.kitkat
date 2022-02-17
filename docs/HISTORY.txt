@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.7 - (2022-02-17)
+---------------------------
+* Change: Add testing profile for cypress testing
+  [avoinea refs #146058]
+
 1.6 - (2022-02-15)
 ---------------------------
 * Change: Add eea.banner dependency
