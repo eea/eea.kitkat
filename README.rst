@@ -159,9 +159,9 @@ Included Plone Add-ons
 Main features
 =============
 
-1. Easy to install/uninstall via Site Setup > Add-ons
-2.
-3.
+1. Easy to install/uninstall via Site Setup > Add-ons.
+2. Will install a bundle of add-ons all together.
+3. Will guarantee the integration between all the included add-ons.
 
 Install
 =======
