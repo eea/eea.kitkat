@@ -12,6 +12,152 @@ The eea.kitkat is a Plone add-on
 
 .. contents::
 
+Included Plone Add-ons
+======================
+
+`eea.cache <https://github.com/eea/eea.cache>`_
+
+.. image:: https://img.shields.io/github/v/release/eea/eea.cache
+  :target: https://github.com/eea/eea.cache/releases
+  :alt: Release
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.cache/master
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.cache/job/master/display/redirect
+  :alt: Master
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.cache/develop
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.cache/job/develop/display/redirect
+  :alt: Develop
+
+`eea.banner <https://github.com/eea/eea.banner>`_
+
+.. image:: https://img.shields.io/github/v/release/eea/eea.banner
+  :target: https://github.com/eea/eea.banner/releases
+  :alt: Release
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.banner/master
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.banner/job/master/display/redirect
+  :alt: Master
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.banner/develop
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.banner/job/develop/display/redirect
+  :alt: Develop
+  
+`eea.zotero <https://github.com/eea/eea.zotero>`_
+
+.. image:: https://img.shields.io/github/v/release/eea/eea.zotero
+  :target: https://github.com/eea/eea.zotero/releases
+  :alt: Release
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.zotero/master
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.zotero/job/master/display/redirect
+  :alt: Master
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.zotero/develop
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.zotero/job/develop/display/redirect
+  :alt: Develop
+
+`eea.api.layout <https://github.com/eea/eea.api.layout>`_
+
+.. image:: https://img.shields.io/github/v/release/eea/eea.api.layout
+  :target: https://github.com/eea/eea.api.layout/releases
+  :alt: Release
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.api.layout/master
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.api.layout/job/master/display/redirect
+  :alt: Master
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.api.layout/develop
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.api.layout/job/develop/display/redirect
+  :alt: Develop
+
+`eea.api.taxonomy <https://github.com/eea/eea.api.taxonomy>`_
+
+.. image:: https://img.shields.io/github/v/release/eea/eea.api.taxonomy
+  :target: https://github.com/eea/eea.api.taxonomy/releases
+  :alt: Release
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.api.taxonomy/master
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.api.taxonomy/job/master/display/redirect
+  :alt: Master
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.api.taxonomy/develop
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.api.taxonomy/job/develop/display/redirect
+  :alt: Develop
+
+`eea.geolocation <https://github.com/eea/eea.geolocation>`_
+
+.. image:: https://img.shields.io/github/v/release/eea/eea.geolocation
+  :target: https://github.com/eea/eea.geolocation/releases
+  :alt: Release
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.geolocation/master
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.geolocation/job/master/display/redirect
+  :alt: Master
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.geolocation/develop
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.geolocation/job/develop/display/redirect
+  :alt: Develop
+
+`eea.schema.slate <https://github.com/eea/eea.schema.slate>`_
+
+.. image:: https://img.shields.io/github/v/release/eea/eea.schema.slate
+  :target: https://github.com/eea/eea.schema.slate/releases
+  :alt: Release
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.schema.slate/master
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.schema.slate/job/master/display/redirect
+  :alt: Master
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.schema.slate/develop
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.schema.slate/job/develop/display/redirect
+  :alt: Develop
+
+`eea.sentry <https://github.com/eea/eea.sentry>`_
+
+.. image:: https://img.shields.io/github/v/release/eea/eea.sentry
+  :target: https://github.com/eea/eea.sentry/releases
+  :alt: Release
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.sentry/master
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.sentry/job/master/display/redirect
+  :alt: Master
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.sentry/develop
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.sentry/job/develop/display/redirect
+  :alt: Develop
+
+`eea.volto.policy <https://github.com/eea/eea.volto.policy>`_
+
+.. image:: https://img.shields.io/github/v/release/eea/eea.volto.policy
+  :target: https://github.com/eea/eea.volto.policy/releases
+  :alt: Release
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.volto.policy/master
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.volto.policy/job/master/display/redirect
+  :alt: Master
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.volto.policy/develop
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.volto.policy/job/develop/display/redirect
+  :alt: Develop
+
+`collective.taxonomy <https://github.com/eea/collective.taxonomy>`_
+
+.. image:: https://img.shields.io/github/v/release/eea/collective.taxonomy
+  :target: https://github.com/eea/collective.taxonomy/releases
+  :alt: Release
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/collective.taxonomy/master
+  :target: https://ci.eionet.europa.eu/job/eea/job/collective.taxonomy/job/master/display/redirect
+  :alt: Master
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/collective.taxonomy/develop
+  :target: https://ci.eionet.europa.eu/job/eea/job/collective.taxonomy/job/develop/display/redirect
+  :alt: Develop
+
+`plone.volto <https://github.com/eea/plone.volto>`_
+
+.. image:: https://img.shields.io/github/v/release/eea/plone.volto
+  :target: https://github.com/eea/plone.volto/releases
+  :alt: Release
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/plone.volto/master
+  :target: https://ci.eionet.europa.eu/job/eea/job/plone.volto/job/master/display/redirect
+  :alt: Master
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/plone.volto/develop
+  :target: https://ci.eionet.europa.eu/job/eea/job/plone.volto/job/develop/display/redirect
+  :alt: Develop
+
+`plone.restapi <https://github.com/eea/plone.restapi>`_
+
+.. image:: https://img.shields.io/github/v/release/eea/plone.restapi
+  :target: https://github.com/eea/plone.restapi/releases
+  :alt: Release
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/plone.restapi/master
+  :target: https://ci.eionet.europa.eu/job/eea/job/plone.restapi/job/master/display/redirect
+  :alt: Master
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/plone.restapi/develop
+  :target: https://ci.eionet.europa.eu/job/eea/job/plone.restapi/job/develop/display/redirect
+  :alt: Develop
 
 Main features
 =============
