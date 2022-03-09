@@ -123,41 +123,38 @@ Included Plone Add-ons
   :target: https://ci.eionet.europa.eu/job/eea/job/eea.volto.policy/job/develop/display/redirect
   :alt: Develop
 
-`collective.taxonomy <https://github.com/eea/collective.taxonomy>`_
+`plone.volto <https://github.com/plone/plone.volto>`_
 
-.. image:: https://img.shields.io/github/v/release/eea/collective.taxonomy
-  :target: https://github.com/eea/collective.taxonomy/releases
+.. image:: https://img.shields.io/pypi/v/plone.volto.svg
+  :target: https://pypi.python.org/pypi/plone.volto
   :alt: Release
-.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/collective.taxonomy/master
-  :target: https://ci.eionet.europa.eu/job/eea/job/collective.taxonomy/job/master/display/redirect
-  :alt: Master
-.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/collective.taxonomy/develop
-  :target: https://ci.eionet.europa.eu/job/eea/job/collective.taxonomy/job/develop/display/redirect
-  :alt: Develop
-
-`plone.volto <https://github.com/eea/plone.volto>`_
-
-.. image:: https://img.shields.io/github/v/release/eea/plone.volto
-  :target: https://github.com/eea/plone.volto/releases
-  :alt: Release
-.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/plone.volto/master
-  :target: https://ci.eionet.europa.eu/job/eea/job/plone.volto/job/master/display/redirect
-  :alt: Master
-.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/plone.volto/develop
-  :target: https://ci.eionet.europa.eu/job/eea/job/plone.volto/job/develop/display/redirect
-  :alt: Develop
+.. image:: https://github.com/plone/plone.volto/actions/workflows/tests.yml/badge.svg
+  :target: https://github.com/plone/plone.volto/actions/workflows/tests.yml
+  :alt: Tests
 
 `plone.restapi <https://github.com/eea/plone.restapi>`_
 
-.. image:: https://img.shields.io/github/v/release/eea/plone.restapi
-  :target: https://github.com/eea/plone.restapi/releases
+.. image:: https://img.shields.io/pypi/v/plone.restapi.svg
+  :target: https://pypi.python.org/pypi/plone.restapi
   :alt: Release
-.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/plone.restapi/master
-  :target: https://ci.eionet.europa.eu/job/eea/job/plone.restapi/job/master/display/redirect
-  :alt: Master
-.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/plone.restapi/develop
-  :target: https://ci.eionet.europa.eu/job/eea/job/plone.restapi/job/develop/display/redirect
-  :alt: Develop
+.. image:: https://github.com/plone/plone.restapi/workflows/Plone%20RESTAPI%20CI/badge.svg
+  :target: https://github.com/plone/plone.restapi/actions?query=workflow%3A%22Plone+RESTAPI+CI%22
+  :alt: CI
+.. image:: https://coveralls.io/repos/github/plone/plone.restapi/badge.svg?branch=master
+  :target: https://coveralls.io/github/plone/plone.restapi?branch=master
+  :alt: Coverage
+.. image:: https://readthedocs.org/projects/pip/badge
+  :target: https://plonerestapi.readthedocs.org
+  :alt: Docs
+
+`collective.taxonomy <https://github.com/eea/collective.taxonomy>`_
+
+.. image:: https://github.com/collective/collective.taxonomy/workflows/CI/badge.svg
+  :target: https://github.com/collective/collective.taxonomy/actions
+  :alt: CI
+.. image:: https://coveralls.io/repos/github/collective/collective.taxonomy/badge.svg
+  :target: https://coveralls.io/github/collective/collective.taxonomy
+  :alt: Coverage
 
 Main features
 =============
