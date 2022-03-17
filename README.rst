@@ -158,6 +158,13 @@ Included Plone Add-ons
 
 `pas.plugins.oidc <https://github.com/eea/pas.plugins.oidc>`_
 
+.. image:: https://img.shields.io/pypi/v/pas.plugins.oidc.svg
+  :target: https://pypi.python.org/pypi/pas.plugins.oidc/
+  :alt: Latest Version
+.. image:: https://img.shields.io/github/v/release/eea/pas.plugins.oidc
+  :target: https://github.com/eea/pas.plugins.oidc/releases
+  :alt: Release
+
 Main features
 =============
 
