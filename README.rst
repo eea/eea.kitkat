@@ -156,6 +156,8 @@ Included Plone Add-ons
   :target: https://coveralls.io/github/collective/collective.taxonomy
   :alt: Coverage
 
+`pas.plugins.oidc <https://github.com/eea/pas.plugins.oidc>`_
+
 Main features
 =============
 
