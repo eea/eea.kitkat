@@ -8,7 +8,7 @@ eea.kitkat
   :target: https://ci.eionet.europa.eu/job/eea/job/eea.kitkat/job/master/display/redirect
   :alt: Master
 
-The eea.kitkat is a Plone add-on
+The eea.kitkat Plone add-on is a backend support for `volto-eea-kitkat <https://github.com/eea/volto-eea-kitkat>`_.
 
 .. contents::
 
