@@ -1,6 +1,11 @@
 Changelog
 =========
 
+1.8 - (2022-03-18)
+---------------------------
+* Feature: added pas.plugins.oidc as dependency
+  [alecghica refs #137187]
+
 1.7 - (2022-02-17)
 ---------------------------
 * Change: Add testing profile for cypress testing

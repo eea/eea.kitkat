@@ -8,7 +8,7 @@ eea.kitkat
   :target: https://ci.eionet.europa.eu/job/eea/job/eea.kitkat/job/master/display/redirect
   :alt: Master
 
-The eea.kitkat is a Plone add-on
+The eea.kitkat Plone add-on is a backend support for `volto-eea-kitkat <https://github.com/eea/volto-eea-kitkat>`_.
 
 .. contents::
 
@@ -155,6 +155,15 @@ Included Plone Add-ons
 .. image:: https://coveralls.io/repos/github/collective/collective.taxonomy/badge.svg
   :target: https://coveralls.io/github/collective/collective.taxonomy
   :alt: Coverage
+
+`pas.plugins.oidc <https://github.com/eea/pas.plugins.oidc>`_
+
+.. image:: https://img.shields.io/pypi/v/pas.plugins.oidc.svg
+  :target: https://pypi.python.org/pypi/pas.plugins.oidc/
+  :alt: Latest Version
+.. image:: https://img.shields.io/github/v/release/eea/pas.plugins.oidc
+  :target: https://github.com/eea/pas.plugins.oidc/releases
+  :alt: Release
 
 Main features
 =============
