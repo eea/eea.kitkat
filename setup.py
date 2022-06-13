@@ -46,6 +46,7 @@ setup(
             'eea.api.layout',
             'eea.api.taxonomy',
             'eea.geolocation',
+            'eea.coremetadata',
             'eea.schema.slate',
             'eea.sentry',
             'eea.volto.policy',
