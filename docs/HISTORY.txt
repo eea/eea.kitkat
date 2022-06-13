@@ -1,8 +1,10 @@
 Changelog
 =========
 
-2.0-dev0 - (unreleased)
+2.0 - (2022-06-13)
 ---------------------------
+* Change: Release eea.coremetadata
+  [nileshgulia1]
 
 1.9 - (2022-06-13)
 ---------------------------
