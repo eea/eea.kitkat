@@ -86,6 +86,18 @@ Included Plone Add-ons
 .. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.geolocation/develop
   :target: https://ci.eionet.europa.eu/job/eea/job/eea.geolocation/job/develop/display/redirect
   :alt: Develop
+  
+ `eea.coremetadata <https://github.com/eea/eea.coremetadata>`_
+
+.. image:: https://img.shields.io/github/v/release/eea/eea.coremetadata
+  :target: https://github.com/eea/eea.coremetadata/releases
+  :alt: Release
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.coremetadata/master
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.coremetadata/job/master/display/redirect
+  :alt: Master
+.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.coremetadata/develop
+  :target: https://ci.eionet.europa.eu/job/eea/job/eea.coremetadata/job/develop/display/redirect
+  :alt: Develop
 
 `eea.schema.slate <https://github.com/eea/eea.schema.slate>`_
 
