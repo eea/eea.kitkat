@@ -87,7 +87,7 @@ Included Plone Add-ons
   :target: https://ci.eionet.europa.eu/job/eea/job/eea.geolocation/job/develop/display/redirect
   :alt: Develop
   
- `eea.coremetadata <https://github.com/eea/eea.coremetadata>`_
+`eea.coremetadata <https://github.com/eea/eea.coremetadata>`_
 
 .. image:: https://img.shields.io/github/v/release/eea/eea.coremetadata
   :target: https://github.com/eea/eea.coremetadata/releases
