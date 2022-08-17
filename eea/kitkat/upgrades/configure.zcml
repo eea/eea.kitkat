@@ -39,4 +39,16 @@
 
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+    source="1.6"
+    destination="2.1"
+    profile="eea.kitkat:default">
+
+    <genericsetup:upgradeDepends
+       title="Add registry records for backend/frontend versions"
+       import_profile="eea.kitkat:eeakitkat_21"
+      />
+
+  </genericsetup:upgradeSteps>
+
 </configure>
