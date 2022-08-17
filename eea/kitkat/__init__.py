@@ -11,9 +11,11 @@ from zope.annotation.interfaces import IAnnotations
 from zope.i18nmessageid.message import MessageFactory
 
 
-logger = logging.getLogger("eea.design")
+logger = logging.getLogger("eea.kitkat")
 EEAMessageFactory = MessageFactory('eea')
-EEANOTRANSLATIONMessageFactory = MessageFactory('eea.notranslation')
+
+backend_record_name = "EEA_KGS_VERSION"
+frontend_record_name = "EEA_VOLTO_VERSION"
 
 
 def initialize(context):
@@ -21,23 +23,37 @@ def initialize(context):
     """
     root = Zope2.app()
     sites = root.objectValues("Plone Site")
-    version = os.environ.get("EEA_KGS_VERSION", "")
+    version = os.environ.get(backend_record_name, "")
     if not version:
         return
 
     changed = False
     for site in sites:
-        anno = queryAdapter(site, IAnnotations)
-        if not anno:
+        import pdb; pdb.set_trace()
+        registry = getUtility(IRegistry)
+
+        if not registry:
             continue
 
-        if not anno.get("EEA_KGS_VERSION", None):
-            anno["EEA_KGS_VERSION"] = OOBTree()
+        if not registry.get(backend_record_name, None):
+            registry[backend_record_name] = OOBTree()
             changed = True
 
-        if not anno["EEA_KGS_VERSION"].get(version, None):
-            anno["EEA_KGS_VERSION"][version] = datetime.now()
+        if not registry[backend_record_name].get(version, None):
+            registry[backend_record_name][version] = datetime.now()
             changed = True
+
+        # anno = queryAdapter(site, IAnnotations)
+        # if not anno:
+        #     continue
+        #
+        # if not anno.get("EEA_KGS_VERSION", None):
+        #     anno["EEA_KGS_VERSION"] = OOBTree()
+        #     changed = True
+        #
+        # if not anno["EEA_KGS_VERSION"].get(version, None):
+        #     anno["EEA_KGS_VERSION"][version] = datetime.now()
+        #     changed = True
 
     if changed:
         transaction.get().note('eea.kitkat: updating EEA_KGS_VERSION')
