@@ -6,7 +6,8 @@
 	        <value_type type="plone.registry.field.TextLine" />
 	    </field>
 	    <value>
-	        <element key="version">{"version": "1.0", "date": "2022-08-17 16:45:00"}</element>
+	        <element key="version">1.0</element>
+	        <element key="date">2022-08-17 16:45:00</element>
 		</value>
 	</record>
 
@@ -17,7 +18,8 @@
 	        <value_type type="plone.registry.field.TextLine" />
 	    </field>
 	    <value>
-	        <element key="version">{"version": "1.0", "date": "2022-08-17 16:45:00"}</element>
+	        <element key="version">1.0</element>
+	        <element key="date">2022-08-17 16:45:00</element>
 		</value>
 	</record>
 
