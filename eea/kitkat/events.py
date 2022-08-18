@@ -2,16 +2,16 @@
 import logging
 import transaction
 from datetime import datetime
-from eea.kitkat.interfaces import IEEAVersionsFrontend
-from plone.registry.interfaces import IRecordModifiedEvent
-from zope.component import getUtility
 from plone.registry.interfaces import IRegistry
+from zope.component import getUtility
 
 
 logger = logging.getLogger("eea.kitkat")
 
 
 def detectVersionChange(settings, event):
+    """ Frontend vers event subscriber that updates old_version & date record
+    """
     if event.record.fieldName == 'version':
         registry = getUtility(IRegistry)
 
