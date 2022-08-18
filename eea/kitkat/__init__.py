@@ -12,8 +12,10 @@ from zope.i18nmessageid.message import MessageFactory
 logger = logging.getLogger("eea.kitkat")
 EEAMessageFactory = MessageFactory('eea')
 
-backend_record_name = "eea.kitkat.BACKEND_VERSION"
-frontend_record_name = "eea.kitkat.FRONTEND_VERSION"
+version_record_name = "eea.kitkat.interfaces.IEEAVersionsBackend.version"
+old_version_record_name = "eea.kitkat.interfaces.IEEAVersionsBackend.old_version"
+date_record_name = "eea.kitkat.interfaces.IEEAVersionsBackend.date"
+version_env_name = "BACKEND_VERSION"
 
 
 def initialize(context):
@@ -21,9 +23,9 @@ def initialize(context):
     """
     root = Zope2.app()
     sites = root.objectValues("Plone Site")
-    version = os.environ.get(backend_record_name, "")
+    version = os.environ.get(version_env_name, "")
     # for testing purposes
-    version = 2
+    # version = 2
 
     if not version:
         return
@@ -37,12 +39,12 @@ def initialize(context):
 
         if not isinstance(version, str):
             version = str(version)
-
-        if registry[backend_record_name].get('version', None) != version:
-            date = datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
-            entry = {'version': version, 'date': date}
-            registry[backend_record_name] = entry
-            changed = True
+        import pdb; pdb.set_trace()
+        # if registry[backend_record_name].get('version', None) != version:
+        #     date = datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
+        #     entry = {'version': version, 'date': date}
+        #     registry[backend_record_name] = entry
+        #     changed = True
 
     if changed:
         transaction.get().note('eea.kitkat: updating BACKEND_VERSION')
