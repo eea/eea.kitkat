@@ -2,20 +2,19 @@
 """
 import os
 import logging
+from datetime import datetime
 import transaction
 import Zope2
-from datetime import datetime
-from BTrees.OOBTree import OOBTree
 from zope.i18nmessageid.message import MessageFactory
 
 
 logger = logging.getLogger("eea.kitkat")
 EEAMessageFactory = MessageFactory('eea')
 
-version_record_name = "eea.kitkat.interfaces.IEEAVersionsBackend.version"
-old_version_record_name = "eea.kitkat.interfaces.IEEAVersionsBackend.old_version"
-date_record_name = "eea.kitkat.interfaces.IEEAVersionsBackend.date"
-version_env_name = "BACKEND_VERSION"
+version_record = "eea.kitkat.interfaces.IEEAVersionsBackend.version"
+old_version_record = "eea.kitkat.interfaces.IEEAVersionsBackend.old_version"
+date_record = "eea.kitkat.interfaces.IEEAVersionsBackend.date"
+version_env = "BACKEND_VERSION"
 
 
 def initialize(context):
@@ -23,7 +22,7 @@ def initialize(context):
     """
     root = Zope2.app()
     sites = root.objectValues("Plone Site")
-    version = os.environ.get(version_env_name, "")
+    version = os.environ.get(version_env, "")
 
     if not version:
         return
@@ -38,10 +37,10 @@ def initialize(context):
         if not isinstance(version, str):
             version = str(version)
 
-        if registry[version_record_name] != version:
-            registry[old_version_record_name] = registry[version_record_name]
-            registry[version_record_name] = version
-            registry[date_record_name] = datetime.now()
+        if registry[version_record] != version:
+            registry[old_version_record] = registry[version_record]
+            registry[version_record] = version
+            registry[date_record] = datetime.now()
             changed = True
 
     if changed:
