@@ -1,3 +1,4 @@
+# pylint: disable=W1201
 """events module"""
 import logging
 from datetime import datetime
