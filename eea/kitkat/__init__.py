@@ -3,8 +3,8 @@
 import os
 import logging
 import transaction
-from datetime import datetime
 import Zope2
+from datetime import datetime
 from BTrees.OOBTree import OOBTree
 from zope.i18nmessageid.message import MessageFactory
 
@@ -24,8 +24,6 @@ def initialize(context):
     root = Zope2.app()
     sites = root.objectValues("Plone Site")
     version = os.environ.get(version_env_name, "")
-    # for testing purposes
-    # version = 2
 
     if not version:
         return
@@ -39,12 +37,12 @@ def initialize(context):
 
         if not isinstance(version, str):
             version = str(version)
-        import pdb; pdb.set_trace()
-        # if registry[backend_record_name].get('version', None) != version:
-        #     date = datetime.now().strftime("%Y-%m-%d, %H:%M:%S")
-        #     entry = {'version': version, 'date': date}
-        #     registry[backend_record_name] = entry
-        #     changed = True
+
+        if registry[version_record_name] != version:
+            registry[old_version_record_name] = registry[version_record_name]
+            registry[version_record_name] = version
+            registry[date_record_name] = datetime.now()
+            changed = True
 
     if changed:
         transaction.get().note('eea.kitkat: updating BACKEND_VERSION')
