@@ -11,7 +11,7 @@ class IEeaKitkatLayer(IDefaultBrowserLayer):
 
 
 class IEEAVersionsBackend(Interface):
-    """
+    """ Registry record for the backend versions
     """
     date = schema.Datetime(
         title=_(u"Date of last version update"),
@@ -33,7 +33,7 @@ class IEEAVersionsBackend(Interface):
 
 
 class IEEAVersionsFrontend(Interface):
-    """
+    """ Registry record for the frontend versions
     """
     date = schema.Datetime(
         title=_(u"Date of last version update"),
