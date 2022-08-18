@@ -33,7 +33,8 @@ class EEAFixture(PloneSandboxLayer):
 
         # Add default Plone content
         try:
-            applyProfile(portal, 'plone.app.contenttypes:plone-content')
+            # applyProfile(portal, 'plone.app.contenttypes:plone-content')
+            applyProfile(portal, 'plone.app.contenttypes:default')
         except KeyError:
             # BBB Plone 4
             setuphandlers.setupPortalContent(portal)
