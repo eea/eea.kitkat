@@ -21,4 +21,8 @@
   <include package=".browser" />
   <include package=".upgrades" />
 
+  <subscriber for="eea.kitkat.interfaces.IEEAVersionsFrontend
+                   plone.registry.interfaces.IRecordModifiedEvent"
+              handler=".events.detectVersionChange" />
+
 </configure>
