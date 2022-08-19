@@ -17,10 +17,8 @@ def detectVersionChange(settings, event):
     if event.record.fieldName == 'version':
         registry = getUtility(IRegistry)
 
-        set_registry_record('eea.kitkat.interfaces.IEEAVersionsFrontend.date'
-                            , datetime.now())
-        set_registry_record('eea.kitkat.interfaces.IEEAVersionsFrontend.old_version'  # noqa
-                            , event.oldValue)
+        set_registry_record('eea.kitkat.interfaces.IEEAVersionsFrontend.date', datetime.now())  # noqa
+        set_registry_record('eea.kitkat.interfaces.IEEAVersionsFrontend.old_version', event.oldValue)  # noqa
 
         transaction.get().note("eea.kitkat: updating FRONTEND_VERSION")
         transaction.commit()
