@@ -34,6 +34,9 @@ def initialize(context):
 
         registry = site.portal_registry
 
+        if version_record not in registry:
+            continue
+
         if not isinstance(version, str):
             version = str(version)
 
