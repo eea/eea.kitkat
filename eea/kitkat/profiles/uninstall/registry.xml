@@ -1,0 +1,4 @@
+<registry>
+    <records remove="true" interface="eea.kitkat.interfaces.IEEAVersionsBackend" />
+  	<records remove="true" interface="eea.kitkat.interfaces.IEEAVersionsFrontend" />
+</registry>
