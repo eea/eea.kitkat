@@ -1,10 +1,9 @@
 Changelog
 =========
 
-2.1 - (2022-08-23)
+3.0 - (2022-08-23)
 ---------------------------
-* Change: Added backend/frontend version registry records + automatically
-  update the version on zope startup
+* Feature: Added backend/frontend version registry records + automatically update the version on zope startup
   [iulianpetchesi refs #153334]
 
 2.0 - (2022-06-13)

@@ -41,7 +41,7 @@
 
   <genericsetup:upgradeSteps
     source="1.6"
-    destination="2.1"
+    destination="3.0"
     profile="eea.kitkat:default">
 
     <genericsetup:upgradeDepends
