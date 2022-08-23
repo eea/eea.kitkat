@@ -39,4 +39,16 @@
 
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+    source="1.6"
+    destination="3.0"
+    profile="eea.kitkat:default">
+
+    <genericsetup:upgradeDepends
+      title="Add registry records for backend/frontend versions"
+      import_steps="plone.app.registry"
+      />
+
+  </genericsetup:upgradeSteps>
+
 </configure>

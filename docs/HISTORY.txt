@@ -1,6 +1,11 @@
 Changelog
 =========
 
+3.0 - (2022-08-23)
+---------------------------
+* Feature: Added backend/frontend version registry records + automatically update the version on zope startup
+  [iulianpetchesi refs #153334]
+
 2.0 - (2022-06-13)
 ---------------------------
 * Change: Release eea.coremetadata
