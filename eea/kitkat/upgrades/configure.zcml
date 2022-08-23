@@ -45,8 +45,8 @@
     profile="eea.kitkat:default">
 
     <genericsetup:upgradeDepends
-       title="Add registry records for backend/frontend versions"
-       import_profile="eea.kitkat:eeakitkat_21"
+      title="Add registry records for backend/frontend versions"
+      import_steps="plone.app.registry"
       />
 
   </genericsetup:upgradeSteps>

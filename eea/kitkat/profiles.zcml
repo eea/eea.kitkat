@@ -33,18 +33,9 @@
       post_handler=".setuphandlers.uninstall"
       />
 
-    <genericsetup:registerProfile
-      name="eeakitkat_21"
-      title="Upgrade profile for eea.kitkat v2.1"
-      description=""
-      directory="upgrades/to_21"
-      provides="Products.GenericSetup.interfaces.EXTENSION"
-      />
-
   <utility
       factory=".setuphandlers.HiddenProfiles"
       name="eea.kitkat-hiddenprofiles"
       />
-
 
 </configure>
