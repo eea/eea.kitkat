@@ -1,6 +1,9 @@
 Changelog
 =========
 
+3.1-dev0 - (unreleased)
+---------------------------
+
 3.0 - (2022-08-23)
 ---------------------------
 * Feature: Added backend/frontend version registry records + automatically update the version on zope startup
