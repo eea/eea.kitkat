@@ -19,6 +19,7 @@
 
   <include file="profiles.zcml" />
   <include package=".browser" />
+  <include package=".restapi" />
   <include package=".upgrades" />
 
   <subscriber for="eea.kitkat.interfaces.IEEAVersionsFrontend

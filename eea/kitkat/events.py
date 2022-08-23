@@ -16,8 +16,9 @@ def detectVersionChange(settings, event):
     if event.record.fieldName == 'version':
         set_registry_record(
             'date', datetime.now(), interface=IEEAVersionsFrontend)
-        set_registry_record(
-            'old_version', event.oldValue, interface=IEEAVersionsFrontend)
+        if event.oldValue:
+            set_registry_record(
+                'old_version', event.oldValue, interface=IEEAVersionsFrontend)
 
         transaction.get().note("eea.kitkat: updating FRONTEND_VERSION")
         transaction.commit()
