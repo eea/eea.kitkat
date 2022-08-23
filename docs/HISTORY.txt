@@ -1,7 +1,7 @@
 Changelog
 =========
 
-2.1-dev0 - (unreleased)
+2.1 - (2022-08-23)
 ---------------------------
 * Change: Added backend/frontend version registry records + automatically
   update the version on zope startup
