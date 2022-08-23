@@ -1,0 +1,4 @@
+<registry>
+  	<records interface="eea.kitkat.interfaces.IEEAVersionsBackend" />
+  	<records interface="eea.kitkat.interfaces.IEEAVersionsFrontend" />
+</registry>
