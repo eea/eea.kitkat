@@ -22,5 +22,7 @@ def detectVersionChange(settings, event):
         transaction.get().note("eea.kitkat: updating FRONTEND_VERSION")
         transaction.commit()
 
-        logger.info("Frontend version changed from %s to %s",
-            event.oldValue, event.newValue)
+        logger.info(
+            "Frontend version changed from %s to %s",
+            event.oldValue, event.newValue
+        )
