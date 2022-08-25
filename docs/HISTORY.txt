@@ -3,6 +3,8 @@ Changelog
 
 3.1-dev0 - (unreleased)
 ---------------------------
+* Feature: Add PATCH support for `@system` endpoint in order to be able to update frontend version
+  [avoinea refs #153334]
 
 3.0 - (2022-08-23)
 ---------------------------

@@ -51,7 +51,8 @@ def initialize(context):
         try:
             transaction.commit()
         except Exception as err:
-            logger.warn("BACKEND_VERSION already updated elsewhere: %s", err)
+            logger.warning(
+                "BACKEND_VERSION already updated elsewhere: %s", err)
             transaction.abort()
         else:
             logger.info("BACKEND_VERSION updated to: %s", version)
