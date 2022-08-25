@@ -1,6 +1,9 @@
 Changelog
 =========
 
+3.2-dev0 - (unreleased)
+---------------------------
+
 3.1 - (2022-08-25)
 ---------------------------
 * Feature: Add PATCH support for `@system` endpoint in order to be able to update frontend version
