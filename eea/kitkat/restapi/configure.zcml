@@ -12,4 +12,13 @@
       name="@system"
       />
 
+  <plone:service
+      method="PATCH"
+      factory=".update.SystemUpdate"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      layer="eea.kitkat.interfaces.IEeaKitkatLayer"
+      permission="zope2.View"
+      name="@system"
+      />
+
 </configure>

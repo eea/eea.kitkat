@@ -1,6 +1,11 @@
 Changelog
 =========
 
+3.1 - (2022-08-25)
+---------------------------
+* Feature: Add PATCH support for `@system` endpoint in order to be able to update frontend version
+  [avoinea refs #153334]
+
 3.0 - (2022-08-23)
 ---------------------------
 * Feature: Added backend/frontend version registry records + automatically update the version on zope startup
