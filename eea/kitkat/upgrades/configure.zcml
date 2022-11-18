@@ -57,7 +57,7 @@
     profile="eea.kitkat:default">
 
     <genericsetup:upgradeDepends
-      title="Add site, social, copyright and contact actions"
+      title="Add footer, social, copyright and contact actions"
       import_steps="actions"
       />
 

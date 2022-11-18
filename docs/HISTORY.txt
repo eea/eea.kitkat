@@ -3,7 +3,7 @@ Changelog
 
 4.0-dev0 - (unreleased)
 ---------------------------
-* Feature: Add default actions: site, social, copyright and contact
+* Feature: New category actions: footer, social, copyright and contact
   [avoinea refs #151856]
 
 3.1 - (2022-08-25)
