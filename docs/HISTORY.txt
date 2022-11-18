@@ -1,6 +1,11 @@
 Changelog
 =========
 
+4.0 - (2022-11-18)
+---------------------------
+* Feature: New category actions: footer, social, copyright and contact
+  [avoinea refs #151856]
+
 3.1 - (2022-08-25)
 ---------------------------
 * Feature: Add PATCH support for `@system` endpoint in order to be able to update frontend version

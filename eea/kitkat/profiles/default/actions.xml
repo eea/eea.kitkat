@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<object name="portal_actions" meta_type="Plone Actions Tool"
+   xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+ <object name="footer_actions" meta_type="CMF Action Category">
+  <property name="title">Site actions</property>
+  <object name="privacy" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">Privacy</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">python:f&quot;{plone_portal_state.navigation_root_url()}/privacy&quot;</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="sitemap" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">Sitemap</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">python:f&quot;{plone_portal_state.navigation_root_url()}/sitemap&quot;</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="login" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">CMS Login</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">python:f&quot;{plone_portal_state.navigation_root_url()}/login&quot;</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+ </object>
+ <object name="social_actions" meta_type="CMF Action Category">
+  <property name="title"></property>
+  <object name="twitter" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">Twitter</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">string:https://twitter.com/euenvironment</property>
+   <property name="link_target"></property>
+   <property name="icon_expr">string:icon ri-twitter-fill</property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="facebook" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">Facebook</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">string:https://www.facebook.com/European.Environment.Agency</property>
+   <property name="link_target"></property>
+   <property name="icon_expr">string:icon ri-facebook-box-fill</property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="linkedin" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">Linkedin</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">string:https://www.linkedin.com/company/european-environment-agency</property>
+   <property name="link_target"></property>
+   <property name="icon_expr">string:icon ri-linkedin-fill</property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="youtube" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">Youtube</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">string:https://www.youtube.com/user/EEAvideos</property>
+   <property name="link_target"></property>
+   <property name="icon_expr">string:icon ri-youtube-fill</property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="instagram" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">Instagram</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">string:https://www.instagram.com/ourplanet_eu</property>
+   <property name="link_target"></property>
+   <property name="icon_expr">string:icon ri-instagram-fill</property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="rss" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">RSS</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">python:f&quot;{plone_portal_state.navigation_root_url()}/subscription/news-feeds&quot;</property>
+   <property name="link_target"></property>
+   <property name="icon_expr">string:icon ri-rss-fill</property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+ </object>
+ <object name="copyright_actions" meta_type="CMF Action Category">
+  <property name="title"></property>
+  <object name="copyright" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">EEA</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">python:f&quot;{plone_portal_state.navigation_root_url()}/copyright&quot;</property>
+   <property name="link_target"></property>
+   <property name="icon_expr">string:plone-copyright</property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+ </object>
+ <object name="contact_actions" meta_type="CMF Action Category">
+  <property name="title"></property>
+  <object name="about" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">About us</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">python:f&quot;{plone_portal_state.navigation_root_url()}/about&quot;</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="contact" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">Contact Us</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">python:f&quot;{plone_portal_state.navigation_root_url()}/contact-us&quot;</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="newsletter" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title"
+      i18n:translate="">Sign up to our newsletter</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">python:f&quot;{plone_portal_state.navigation_root_url()}/newsletter&quot;</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+ </object>
+</object>
