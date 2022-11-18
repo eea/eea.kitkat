@@ -1,6 +1,9 @@
 Changelog
 =========
 
+4.1-dev0 - (unreleased)
+---------------------------
+
 4.0 - (2022-11-18)
 ---------------------------
 * Feature: New category actions: footer, social, copyright and contact
