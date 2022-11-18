@@ -51,4 +51,16 @@
 
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+    source="3.0"
+    destination="4.0"
+    profile="eea.kitkat:default">
+
+    <genericsetup:upgradeDepends
+      title="Add site, social, copyright and contact actions"
+      import_steps="actions"
+      />
+
+  </genericsetup:upgradeSteps>
+
 </configure>
