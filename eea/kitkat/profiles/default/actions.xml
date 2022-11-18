@@ -123,24 +123,11 @@
    </property>
    <property name="visible">True</property>
   </object>
-  <object name="tmp" meta_type="CMF Action" i18n:domain="plone">
-   <property name="title" i18n:translate="">TMP</property>
-   <property name="description" i18n:translate=""></property>
-   <property
-      name="url_expr">string:https://google.com?q=euenvironment</property>
-   <property name="link_target"></property>
-   <property name="icon_expr">string:icon ri-google-fill</property>
-   <property name="available_expr"></property>
-   <property name="permissions">
-    <element value="View"/>
-   </property>
-   <property name="visible">True</property>
-  </object>
  </object>
  <object name="copyright_actions" meta_type="CMF Action Category">
   <property name="title"></property>
   <object name="copyright" meta_type="CMF Action" i18n:domain="plone">
-   <property name="title" i18n:translate="">Eionet</property>
+   <property name="title" i18n:translate="">EEA</property>
    <property name="description" i18n:translate=""></property>
    <property
       name="url_expr">python:f&quot;{plone_portal_state.navigation_root_url()}/copyright&quot;</property>
