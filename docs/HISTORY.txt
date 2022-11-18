@@ -1,7 +1,7 @@
 Changelog
 =========
 
-4.0-dev0 - (unreleased)
+4.0 - (2022-11-18)
 ---------------------------
 * Feature: New category actions: footer, social, copyright and contact
   [avoinea refs #151856]
