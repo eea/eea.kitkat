@@ -3,6 +3,8 @@ Changelog
 
 4.1-dev0 - (unreleased)
 ---------------------------
+* Feature: Add contact_extra_actions: faqs and careers
+  [avoinea refs #151856]
 
 4.0 - (2022-11-18)
 ---------------------------
