@@ -183,4 +183,33 @@
    <property name="visible">True</property>
   </object>
  </object>
+ <object name="contact_extra_actions" meta_type="CMF Action Category">
+  <property name="title"></property>
+  <object name="faqs" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">FAQs</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">python:f&quot;{plone_portal_state.navigation_root_url()}/faqs&quot;</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="careers" meta_type="CMF Action" i18n:domain="plone">
+   <property name="title" i18n:translate="">Careers</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">python:f&quot;{plone_portal_state.navigation_root_url()}/careers&quot;</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+ </object>
 </object>
