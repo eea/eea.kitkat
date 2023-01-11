@@ -54,7 +54,7 @@ pipeline {
 
           "ZPT Lint": {
             node(label: 'docker') {
-              sh '''docker run -i --rm --name="$BUILD_TAG-zptlint" -e GIT_BRANCH="$BRANCH_NAME" -e ADDONS="$GIT_NAME" -e DEVELOP="src/$GIT_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/plone-test:4 zptlint'''
+              sh '''docker pull eeacms/plone-test:4; docker run -i --rm --name="$BUILD_TAG-zptlint" -e GIT_BRANCH="$BRANCH_NAME" -e ADDONS="$GIT_NAME" -e DEVELOP="src/$GIT_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/plone-test:4 zptlint'''
             }
           },
 
@@ -121,7 +121,7 @@ pipeline {
 
           "Plone5 & Python3": {
             node(label: 'docker') {
-              sh '''docker run -i --rm --pull "always" --name="$BUILD_TAG-python3" -e GIT_BRANCH="$BRANCH_NAME" -e ADDONS="$GIT_NAME" -e DEVELOP="src/$GIT_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/plone-test:5-python3 -v -vv -s $GIT_NAME'''
+              sh '''docker pull eeacms/plone-test:5-python3; docker run -i --rm --pull "always" --name="$BUILD_TAG-python3" -e GIT_BRANCH="$BRANCH_NAME" -e ADDONS="$GIT_NAME" -e DEVELOP="src/$GIT_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/plone-test:5-python3 -v -vv -s $GIT_NAME'''
             }
           },
           // "PloneSaaS": {
