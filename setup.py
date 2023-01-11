@@ -60,6 +60,7 @@ setup(
     extras_require={
         'test': [
             'plone.app.testing',
+            'plone.app.caching'
         ],
     },
     entry_points="""
