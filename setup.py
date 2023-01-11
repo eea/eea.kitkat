@@ -55,13 +55,11 @@ setup(
             'collective.volto.subsites',
             'plone.volto',
             'plone.restapi',
-            'plone.app.caching',
             'setuptools',
         ],
     extras_require={
         'test': [
             'plone.app.testing',
-            'plone.app.caching'
         ],
     },
     entry_points="""
