@@ -55,6 +55,7 @@ setup(
             'collective.volto.subsites',
             'plone.volto',
             'plone.restapi',
+            'plone.app.caching',
             'setuptools',
         ],
     extras_require={
