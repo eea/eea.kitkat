@@ -52,7 +52,7 @@ setup(
             'eea.volto.policy',
             'pas.plugins.oidc',
             'collective.taxonomy',
-            'collective.volto.subsites=1.3.1',
+            'collective.volto.subsites==1.3.1',
             'plone.volto',
             'plone.restapi',
             'setuptools',
