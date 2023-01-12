@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <version>4.0</version>
+  <version>4.2</version>
   <dependencies>
     <dependency>profile-collective.taxonomy:default</dependency>
     <dependency>profile-collective.volto.subsites:default</dependency>
