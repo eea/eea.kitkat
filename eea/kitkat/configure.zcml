@@ -6,7 +6,6 @@
   <i18n:registerTranslations directory="locales" />
 
   <include package="collective.taxonomy" />
-  <include package="collective.volto.subsites" />
   <include package="eea.api.layout" />
   <include package="eea.api.taxonomy" />
   <include package="eea.banner" />
