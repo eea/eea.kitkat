@@ -99,9 +99,9 @@ class Captcha(BrowserView):
                     'solution': self.request.get('solution')
                 }),
             )
-            with closing(urllib.request.urlopen(
-                req, timeout=self.timeout)) as conn:
-                    return conn.read()
+            with closing(urllib.request.urlopen(req,
+                         timeout=self.timeout)) as conn:
+                return conn.read()
         except Exception as err:
             logger.exception(err)
             return json.dumps({"success": False, "errors": repr(err)})
