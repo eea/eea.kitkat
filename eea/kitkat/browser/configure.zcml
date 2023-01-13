@@ -3,4 +3,18 @@
   xmlns:browser="http://namespaces.zope.org/browser"
   i18n_domain="eea">
 
+    <browser:page
+        name="captcha-controlpanel"
+        for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+        class=".captcha.ControlPanelView"
+        permission="cmf.ManagePortal"
+        />
+
+    <browser:page
+        name="captcha-verify"
+        for="zope.interface.Interface"
+        class=".captcha.Captcha"
+        permission="zope2.View"
+        />
+
 </configure>

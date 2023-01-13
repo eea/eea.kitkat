@@ -63,4 +63,16 @@
 
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+    source="4.0"
+    destination="4.2"
+    profile="eea.kitkat:default">
+
+    <genericsetup:upgradeDepends
+      title="Register captcha interface"
+      import_steps="plone.app.registry"
+      />
+
+  </genericsetup:upgradeSteps>
+
 </configure>

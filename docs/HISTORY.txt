@@ -1,6 +1,12 @@
 Changelog
 =========
 
+4.2 - (2023-01-12)
+---------------------------
+* Feature: Added friendlycaptcha settings + verify to be used with redmine
+  helpdesk block
+  [iulianpetchesi refs #157143]
+
 4.1 - (2022-11-25)
 ---------------------------
 * Feature: Add contact_extra_actions: faqs and careers

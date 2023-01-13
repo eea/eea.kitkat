@@ -1,4 +1,6 @@
 <registry>
   	<records interface="eea.kitkat.interfaces.IEEAVersionsBackend" />
   	<records interface="eea.kitkat.interfaces.IEEAVersionsFrontend" />
+
+    <records interface="eea.kitkat.browser.captcha.ICaptchaSettings" />
 </registry>
