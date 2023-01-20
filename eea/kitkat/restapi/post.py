@@ -30,25 +30,4 @@ class CaptchaVerifyPost(Service):
 
         self.request.form = data
         captcha = Captcha(self.context, self.request)
-
-        return json_compatible(captcha())
-
-
-@implementer(IPublishTraverse)
-class CaptchaVerifyRootPost(Service):
-    """ captcha-verify endpoint
-    """
-
-    def reply(self):
-        """ check if captcha solution is valid
-        """
-        data = json_body(self.request)
-
-        #  Disable CSRF protection
-        if "IDisableCSRFProtection" in dir(plone.protect.interfaces):
-            alsoProvides(self.request, plone.protect.interfaces.IDisableCSRFProtection)  # noqa
-
-        self.request.form = data
-        captcha = Captcha(self.context, self.request)
-
         return json_compatible(captcha())
