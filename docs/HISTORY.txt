@@ -3,6 +3,8 @@ Changelog
 
 4.3-dev0 - (unreleased)
 ---------------------------
+* Feature: Send captcha data as bytes
+  [iulianpetchesi refs #157143]
 
 4.2 - (2023-01-12)
 ---------------------------
