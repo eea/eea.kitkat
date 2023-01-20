@@ -97,7 +97,7 @@ class Captcha(BrowserView):
                     'sitekey': self.username,
                     'secret': self.password,
                     'solution': self.request.get('solution')
-                }),
+                }).encode("utf-8"),
             )
             with closing(urllib.request.urlopen(req,
                          timeout=self.timeout)) as conn:

@@ -1,6 +1,11 @@
 Changelog
 =========
 
+4.3 - (2023-01-20)
+---------------------------
+* Feature: Send captcha data as bytes, add @captchaverify endpoints
+  [iulianpetchesi refs #157143]
+
 4.2 - (2023-01-12)
 ---------------------------
 * Feature: Added friendlycaptcha settings + verify to be used with redmine
