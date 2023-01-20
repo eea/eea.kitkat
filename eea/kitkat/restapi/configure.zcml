@@ -21,4 +21,12 @@
       name="@system"
       />
 
+  <plone:service
+      method="POST"
+      factory=".post.CaptchaVerifyRootPost"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      permission="cmf.ModifyPortalContent"
+      name="@captchaverify"
+      />
+
 </configure>
