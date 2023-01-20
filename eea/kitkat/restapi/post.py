@@ -1,3 +1,4 @@
+# pylint: disable=C0301
 """ Get @system info """
 import logging
 import plone.protect.interfaces
@@ -23,9 +24,9 @@ class CaptchaVerifyPost(Service):
         """
         data = json_body(self.request)
 
-        # Disable CSRF protection
+        #  Disable CSRF protection
         if "IDisableCSRFProtection" in dir(plone.protect.interfaces):
-            alsoProvides(self.request, plone.protect.interfaces.IDisableCSRFProtection)  #  noqa
+            alsoProvides(self.request, plone.protect.interfaces.IDisableCSRFProtection)  # noqa
 
         self.request.form = data
         captcha = Captcha(self.context, self.request)
@@ -43,9 +44,9 @@ class CaptchaVerifyRootPost(Service):
         """
         data = json_body(self.request)
 
-        # Disable CSRF protection
+        #  Disable CSRF protection
         if "IDisableCSRFProtection" in dir(plone.protect.interfaces):
-            alsoProvides(self.request, plone.protect.interfaces.IDisableCSRFProtection)  #  noqa
+            alsoProvides(self.request, plone.protect.interfaces.IDisableCSRFProtection)  # noqa
 
         self.request.form = data
         captcha = Captcha(self.context, self.request)
