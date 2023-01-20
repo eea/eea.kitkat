@@ -29,4 +29,12 @@
       name="@captchaverify"
       />
 
+  <plone:service
+      method="POST"
+      factory=".post.CaptchaVerifyPost"
+      for="*"
+      permission="cmf.ModifyPortalContent"
+      name="@captchaverify"
+      />
+
 </configure>
