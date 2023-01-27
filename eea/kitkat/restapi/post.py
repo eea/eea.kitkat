@@ -1,5 +1,5 @@
 # pylint: disable=C0301
-""" Get @system info """
+""" @captchaverify POST """
 import logging
 import plone.protect.interfaces
 

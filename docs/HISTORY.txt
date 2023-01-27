@@ -1,6 +1,11 @@
 Changelog
 =========
 
+4.4 - (2023-01-27)
+---------------------------
+* Task: Add missing IEeaKitkatLayer for captcha restapi
+  [iulianpetchesi refs #157143]
+
 4.3 - (2023-01-20)
 ---------------------------
 * Feature: Send captcha data as bytes, add @captchaverify endpoints
