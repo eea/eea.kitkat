@@ -25,6 +25,7 @@
       method="POST"
       factory=".post.CaptchaVerifyPost"
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      layer="eea.kitkat.interfaces.IEeaKitkatLayer"
       permission="cmf.ModifyPortalContent"
       name="@captchaverify"
       />
@@ -33,6 +34,7 @@
       method="POST"
       factory=".post.CaptchaVerifyPost"
       for="Products.CMFCore.interfaces.IContentish"
+      layer="eea.kitkat.interfaces.IEeaKitkatLayer"
       permission="cmf.ModifyPortalContent"
       name="@captchaverify"
       />
