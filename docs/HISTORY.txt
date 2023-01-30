@@ -1,7 +1,7 @@
 Changelog
 =========
 
-4.5-dev0 - (unreleased)
+4.5 - (2023-01-30)
 ---------------------------
 * Task: Use status codes for captcha post
   [iulianpetchesi refs #157143]
