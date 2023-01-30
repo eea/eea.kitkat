@@ -1,7 +1,7 @@
 Changelog
 =========
 
-4.6-dev0 - (unreleased)
+4.6 - (2023-01-30)
 ---------------------------
 * Change: Modify endpoint permission
   [iulianpetchesi refs #157143]
