@@ -26,7 +26,7 @@
       factory=".post.CaptchaVerifyPost"
       for="Products.CMFPlone.interfaces.IPloneSiteRoot"
       layer="eea.kitkat.interfaces.IEeaKitkatLayer"
-      permission="cmf.ModifyPortalContent"
+      permission="plone.app.controlpanel.Overview"
       name="@captchaverify"
       />
 
@@ -35,7 +35,7 @@
       factory=".post.CaptchaVerifyPost"
       for="Products.CMFCore.interfaces.IContentish"
       layer="eea.kitkat.interfaces.IEeaKitkatLayer"
-      permission="cmf.ModifyPortalContent"
+      permission="plone.app.controlpanel.Overview"
       name="@captchaverify"
       />
 
