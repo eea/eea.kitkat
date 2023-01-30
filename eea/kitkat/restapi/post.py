@@ -5,6 +5,7 @@ import logging
 import plone.protect.interfaces
 
 from plone.restapi.deserializer import json_body
+from plone.restapi.serializer.converters import json_compatible
 from plone.restapi.services import Service
 from zope.interface import alsoProvides
 from zope.interface import implementer
@@ -30,8 +31,7 @@ class CaptchaVerifyPost(Service):
 
         self.request.form = data
         captcha = Captcha(self.context, self.request)
-
         response = json.loads(captcha().decode('utf-8'))
         if response['success']:
-            return self.reply_no_content()
-        return self.request.response.setStatus(201)
+            return json_compatible(True)
+        return json_compatible(False)

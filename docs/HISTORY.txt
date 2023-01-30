@@ -3,7 +3,7 @@ Changelog
 
 4.5 - (2023-01-30)
 ---------------------------
-* Task: Use status codes for captcha post
+* Task: Return true/false for captcha post
   [iulianpetchesi refs #157143]
 
 4.4 - (2023-01-27)
