@@ -3,6 +3,8 @@ Changelog
 
 4.5-dev0 - (unreleased)
 ---------------------------
+* Task: Use status codes for captcha post
+  [iulianpetchesi refs #157143]
 
 4.4 - (2023-01-27)
 ---------------------------
