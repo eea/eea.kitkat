@@ -1,6 +1,11 @@
 Changelog
 =========
 
+4.6 - (2023-01-30)
+---------------------------
+* Change: Modify endpoint permission
+  [iulianpetchesi refs #157143]
+
 4.5 - (2023-01-30)
 ---------------------------
 * Task: Return true/false for captcha post
