@@ -1,6 +1,11 @@
 Changelog
 =========
 
+4.5 - (2023-01-30)
+---------------------------
+* Task: Return true/false for captcha post
+  [iulianpetchesi refs #157143]
+
 4.4 - (2023-01-27)
 ---------------------------
 * Task: Add missing IEeaKitkatLayer for captcha restapi

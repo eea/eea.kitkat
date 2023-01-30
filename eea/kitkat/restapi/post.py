@@ -1,5 +1,6 @@
 # pylint: disable=C0301
 """ @captchaverify POST """
+import json
 import logging
 import plone.protect.interfaces
 
@@ -30,4 +31,7 @@ class CaptchaVerifyPost(Service):
 
         self.request.form = data
         captcha = Captcha(self.context, self.request)
-        return json_compatible(captcha())
+        response = json.loads(captcha().decode('utf-8'))
+        if response['success']:
+            return json_compatible(True)
+        return json_compatible(False)
