@@ -1,6 +1,9 @@
 Changelog
 =========
 
+4.6-dev0 - (unreleased)
+---------------------------
+
 4.5 - (2023-01-30)
 ---------------------------
 * Task: Return true/false for captcha post
