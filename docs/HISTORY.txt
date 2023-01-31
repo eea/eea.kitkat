@@ -1,6 +1,9 @@
 Changelog
 =========
 
+4.8-dev0 - (unreleased)
+---------------------------
+
 4.7 - (2023-01-31)
 ---------------------------
 * Task: Add endpoint in order to get the captcha key from registry
