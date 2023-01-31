@@ -2,8 +2,10 @@
 import pkg_resources
 from plone.api.portal import get_registry_record
 from plone.restapi.serializer.converters import json_compatible
+from plone.restapi.services import Service
 from plone.restapi.services.system.get import SystemGet as PloneSystemGet
 
+from eea.kitkat.browser.captcha import ICaptchaSettings
 from eea.kitkat.interfaces import IEEAVersionsBackend, IEEAVersionsFrontend
 
 
@@ -48,3 +50,12 @@ class SystemGet(PloneSystemGet):
         if "backend" not in res:
             res["backend"] = self.backend()
         return json_compatible(res)
+
+
+class CaptchaKeyGet(Service):
+    """ @captchakey endpoint
+    """
+    def reply(self):
+        """ Reply """
+        result = get_registry_record("username", interface=ICaptchaSettings)
+        return json_compatible(result)

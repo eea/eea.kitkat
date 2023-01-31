@@ -39,4 +39,22 @@
       name="@captchaverify"
       />
 
+  <plone:service
+      method="GET"
+      factory=".get.CaptchaKeyGet"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      layer="eea.kitkat.interfaces.IEeaKitkatLayer"
+      permission="zope2.View"
+      name="@captchakey"
+      />
+
+  <plone:service
+      method="GET"
+      factory=".get.CaptchaKeyGet"
+      for="Products.CMFCore.interfaces.IContentish"
+      layer="eea.kitkat.interfaces.IEeaKitkatLayer"
+      permission="zope2.View"
+      name="@captchakey"
+      />
+
 </configure>

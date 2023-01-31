@@ -3,6 +3,8 @@ Changelog
 
 4.7-dev0 - (unreleased)
 ---------------------------
+* Task: Add endpoint in order to get the captcha key from registry
+  [iulianpetchesi refs #157143]
 
 4.6 - (2023-01-30)
 ---------------------------
