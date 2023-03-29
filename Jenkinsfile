@@ -3,7 +3,7 @@ pipeline {
 
   environment {
         GIT_NAME = "eea.kitkat"
-        SONARQUBE_TAGS = "www.eea.europa.eu,www.eea.europa.eu-en"
+        SONARQUBE_TAGS = "www.eea.europa.eu,www.eea.europa.eu-en,demo-www.eea.europa.eu"
     }
 
   stages {
