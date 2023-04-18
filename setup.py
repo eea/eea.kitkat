@@ -46,6 +46,7 @@ setup(
             'eea.api.layout',
             'eea.api.taxonomy',
             'eea.geolocation',
+            'redturtle.rssservice',
             'eea.coremetadata',
             'eea.schema.slate',
             'eea.sentry',

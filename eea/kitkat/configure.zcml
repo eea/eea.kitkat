@@ -11,6 +11,7 @@
   <include package="eea.banner" />
   <include package="eea.cache" />
   <include package="eea.geolocation" />
+  <include package="redturtle.rssservice" />
   <include package="eea.coremetadata" />
   <include package="eea.sentry" />
   <include package="eea.volto.policy" />
