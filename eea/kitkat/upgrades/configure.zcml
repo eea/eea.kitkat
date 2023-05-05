@@ -17,18 +17,6 @@
 
   <genericsetup:upgradeSteps
     source="1.0"
-    destination="1.5"
-    profile="eea.kitkat:default">
-
-    <genericsetup:upgradeDepends
-       title="Install eea.cache"
-       import_profile="eea.cache:default"
-      />
-
-  </genericsetup:upgradeSteps>
-
-  <genericsetup:upgradeSteps
-    source="1.5"
     destination="1.6"
     profile="eea.kitkat:default">
 
@@ -71,6 +59,18 @@
     <genericsetup:upgradeDepends
       title="Register captcha interface"
       import_steps="plone.app.registry"
+      />
+
+  </genericsetup:upgradeSteps>
+
+  <genericsetup:upgradeSteps
+    source="4.2"
+    destination="4.8"
+    profile="eea.kitkat:default">
+
+    <genericsetup:upgradeDepends
+      title="Remove eea.cache"
+      import_profile="eea.kitkat:kitkat_48"
       />
 
   </genericsetup:upgradeSteps>
