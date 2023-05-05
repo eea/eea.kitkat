@@ -34,10 +34,10 @@
       />
 
   <genericsetup:registerProfile
-      name="kitkat_48"
-      title="Upgrade profile for eea.kitkat 4.8"
+      name="kitkat_50"
+      title="Upgrade profile for eea.kitkat 5.0"
       description=""
-      directory="profiles/upgrades/to_48"
+      directory="profiles/upgrades/to_50"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 

@@ -65,12 +65,12 @@
 
   <genericsetup:upgradeSteps
     source="4.2"
-    destination="4.8"
+    destination="5.0"
     profile="eea.kitkat:default">
 
     <genericsetup:upgradeDepends
       title="Remove eea.cache"
-      import_profile="eea.kitkat:kitkat_48"
+      import_profile="eea.kitkat:kitkat_50"
       />
 
   </genericsetup:upgradeSteps>
