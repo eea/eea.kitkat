@@ -1,6 +1,11 @@
 Changelog
 =========
 
+5.0 - (2023-05-05)
+---------------------------
+* Task: Remove eea.cache dependency from eea.kitkat
+  [iulianpetchesi refs #251471]
+
 4.7 - (2023-01-31)
 ---------------------------
 * Task: Add endpoint in order to get the captcha key from registry

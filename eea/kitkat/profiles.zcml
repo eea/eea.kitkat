@@ -33,6 +33,14 @@
       post_handler=".setuphandlers.uninstall"
       />
 
+  <genericsetup:registerProfile
+      name="kitkat_50"
+      title="Upgrade profile for eea.kitkat 5.0"
+      description=""
+      directory="profiles/upgrades/to_50"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
   <utility
       factory=".setuphandlers.HiddenProfiles"
       name="eea.kitkat-hiddenprofiles"

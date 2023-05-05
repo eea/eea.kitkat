@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <version>4.2</version>
+  <version>5.0</version>
   <dependencies>
     <dependency>profile-collective.taxonomy:default</dependency>
     <dependency>profile-eea.api.layout:default</dependency>
     <dependency>profile-eea.api.taxonomy:default</dependency>
     <dependency>profile-eea.banner:default</dependency>
     <dependency>profile-eea.coremetadata:default</dependency>
-    <dependency>profile-eea.cache:default</dependency>
     <dependency>profile-eea.geolocation:default</dependency>
     <dependency>profile-eea.sentry:default</dependency>
     <dependency>profile-eea.volto.policy:default</dependency>
