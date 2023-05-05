@@ -3,6 +3,8 @@ Changelog
 
 4.8-dev0 - (unreleased)
 ---------------------------
+* Task: Remove eea.cache dependency from eea.kitkat
+  [iulianpetchesi refs #251471]
 
 4.7 - (2023-01-31)
 ---------------------------
