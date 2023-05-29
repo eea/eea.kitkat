@@ -63,18 +63,6 @@ Included Plone Add-ons
   :target: https://ci.eionet.europa.eu/job/eea/job/eea.api.layout/job/develop/display/redirect
   :alt: Develop
 
-`eea.api.taxonomy <https://github.com/eea/eea.api.taxonomy>`_
-
-.. image:: https://img.shields.io/github/v/release/eea/eea.api.taxonomy
-  :target: https://github.com/eea/eea.api.taxonomy/releases
-  :alt: Release
-.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.api.taxonomy/master
-  :target: https://ci.eionet.europa.eu/job/eea/job/eea.api.taxonomy/job/master/display/redirect
-  :alt: Master
-.. image:: https://ci.eionet.europa.eu/buildStatus/icon?job=eea/eea.api.taxonomy/develop
-  :target: https://ci.eionet.europa.eu/job/eea/job/eea.api.taxonomy/job/develop/display/redirect
-  :alt: Develop
-
 `eea.geolocation <https://github.com/eea/eea.geolocation>`_
 
 .. image:: https://img.shields.io/github/v/release/eea/eea.geolocation

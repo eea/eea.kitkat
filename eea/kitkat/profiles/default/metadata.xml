@@ -4,7 +4,6 @@
   <dependencies>
     <dependency>profile-collective.taxonomy:default</dependency>
     <dependency>profile-eea.api.layout:default</dependency>
-    <dependency>profile-eea.api.taxonomy:default</dependency>
     <dependency>profile-eea.banner:default</dependency>
     <dependency>profile-eea.coremetadata:default</dependency>
     <dependency>profile-eea.geolocation:default</dependency>
