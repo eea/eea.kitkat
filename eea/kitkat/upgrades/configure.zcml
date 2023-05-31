@@ -75,4 +75,16 @@
 
   </genericsetup:upgradeSteps>
 
+  <genericsetup:upgradeSteps
+    source="5.0"
+    destination="6.0"
+    profile="eea.kitkat:default">
+
+    <genericsetup:upgradeDepends
+      title="Remove eea.api.taxonomy"
+      import_profile="eea.kitkat:kitkat_60"
+      />
+
+  </genericsetup:upgradeSteps>
+
 </configure>

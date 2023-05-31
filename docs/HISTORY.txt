@@ -1,6 +1,11 @@
 Changelog
 =========
 
+5.1 - (2023-05-31)
+---------------------------
+* Change: Release
+  [avoinea]
+
 5.0 - (2023-05-05)
 ---------------------------
 * Task: Remove eea.cache dependency from eea.kitkat
