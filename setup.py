@@ -43,7 +43,6 @@ setup(
             'eea.banner',
             'eea.zotero',
             'eea.api.layout',
-            'eea.api.taxonomy',
             'eea.geolocation',
             'eea.coremetadata',
             'eea.schema.slate',
