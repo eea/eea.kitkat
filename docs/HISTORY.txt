@@ -1,15 +1,12 @@
 Changelog
 =========
 
-5.3-dev0 - (unreleased)
----------------------------
-
-5.2 - (2023-06-01)
+6.1 - (2023-06-01)
 ---------------------------
 * Bug fix: Hide Footer Login action if user is logged-in
   [avoinea - refs #253198]
 
-5.1 - (2023-05-31)
+6.0 - (2023-05-31)
 ---------------------------
 * Refactor: Remove eea.api.taxonomy dependency
   [nileshgulia1 - refs #145360]
