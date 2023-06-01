@@ -36,7 +36,7 @@
       name="url_expr">python:f&quot;{plone_portal_state.navigation_root_url()}/login&quot;</property>
    <property name="link_target"></property>
    <property name="icon_expr"></property>
-   <property name="available_expr"></property>
+   <property name="available_expr">python:member is None</property>
    <property name="permissions">
     <element value="View"/>
    </property>
