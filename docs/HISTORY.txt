@@ -1,28 +1,30 @@
 Changelog
 =========
 
-6.1-dev0 - (unreleased)
+5.2 - (2023-06-01)
 ---------------------------
+* Bug fix: Hide Footer Login action if user is logged-in
+  [avoinea - refs #253198]
 
 5.1 - (2023-05-31)
 ---------------------------
-* Change: Release
-  [avoinea]
+* Refactor: Remove eea.api.taxonomy dependency
+  [nileshgulia1 - refs #145360]
 
 5.0 - (2023-05-05)
 ---------------------------
-* Task: Remove eea.cache dependency from eea.kitkat
-  [iulianpetchesi refs #251471]
+* Task: Remove eea.cache dependency
+  [iulianpetchesi - refs #251471]
 
 4.7 - (2023-01-31)
 ---------------------------
 * Task: Add endpoint in order to get the captcha key from registry
-  [iulianpetchesi refs #157143]
+  [iulianpetchesi - refs #157143]
 
 4.6 - (2023-01-30)
 ---------------------------
 * Change: Modify endpoint permission
-  [iulianpetchesi refs #157143]
+  [iulianpetchesi - refs #157143]
 
 4.5 - (2023-01-30)
 ---------------------------
