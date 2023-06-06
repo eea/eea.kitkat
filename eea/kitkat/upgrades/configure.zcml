@@ -84,6 +84,10 @@
       title="Remove eea.api.taxonomy"
       import_profile="eea.kitkat:kitkat_60"
       />
+    <genericsetup:upgradeDepends
+      title="Update permissions for comments"
+      import_profile="eea.kitkat:comments"
+      />
 
   </genericsetup:upgradeSteps>
 

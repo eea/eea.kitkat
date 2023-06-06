@@ -48,6 +48,14 @@
       directory="profiles/upgrades/to_60"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
+  <genericsetup:registerProfile
+      name="comments"
+      title="Update permissions for comments"
+      description=""
+      directory="profiles/upgrades/comments"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
 
   <utility
       factory=".setuphandlers.HiddenProfiles"
