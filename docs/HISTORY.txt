@@ -1,7 +1,7 @@
 Changelog
 =========
 
-6.2-dev0 - (unreleased)
+6.2 - (2023-06-06)
 ---------------------------
 * Change: View comments permission only for authenticated
   [dobri1408 - refs #251360]
