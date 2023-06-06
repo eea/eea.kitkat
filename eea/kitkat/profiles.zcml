@@ -48,14 +48,14 @@
       directory="profiles/upgrades/to_60"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
+
   <genericsetup:registerProfile
-      name="comments"
-      title="Update permissions for comments"
+      name="kitkat_61"
+      title="Upgrade profile for eea.kitkat 6.1"
       description=""
-      directory="profiles/upgrades/comments"
+      directory="profiles/upgrades/to_61"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
-
 
   <utility
       factory=".setuphandlers.HiddenProfiles"
