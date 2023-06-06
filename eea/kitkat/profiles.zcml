@@ -50,10 +50,10 @@
       />
 
   <genericsetup:registerProfile
-      name="kitkat_61"
-      title="Upgrade profile for eea.kitkat 6.1"
+      name="kitkat_62"
+      title="Upgrade profile for eea.kitkat 6.2"
       description=""
-      directory="profiles/upgrades/to_61"
+      directory="profiles/upgrades/to_62"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 

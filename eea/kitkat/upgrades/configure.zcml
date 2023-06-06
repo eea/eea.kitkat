@@ -88,12 +88,12 @@
 
   <genericsetup:upgradeSteps
     source="6.0"
-    destination="6.1"
+    destination="6.2"
     profile="eea.kitkat:default">
 
     <genericsetup:upgradeDepends
       title="Update permissions for comments"
-      import_profile="eea.kitkat:kitkat_61"
+      import_profile="eea.kitkat:kitkat_62"
       />
   </genericsetup:upgradeSteps>
 </configure>
