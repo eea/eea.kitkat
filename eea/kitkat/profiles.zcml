@@ -49,6 +49,14 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
+  <genericsetup:registerProfile
+      name="kitkat_62"
+      title="Upgrade profile for eea.kitkat 6.2"
+      description=""
+      directory="profiles/upgrades/to_62"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
+
   <utility
       factory=".setuphandlers.HiddenProfiles"
       name="eea.kitkat-hiddenprofiles"
