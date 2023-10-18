@@ -48,7 +48,6 @@ setup(
             'eea.schema.slate',
             'eea.sentry',
             'eea.volto.policy',
-            'pas.plugins.oidc',
             'collective.taxonomy',
             'plone.volto',
             'plone.restapi',

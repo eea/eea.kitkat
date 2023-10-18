@@ -1,6 +1,11 @@
 Changelog
 =========
 
+7.0 - (2023-10-18)
+---------------------------
+* Breaking: Remove pas.plugin.oidc dependency
+  [avoinea - refs #258877]
+
 6.2 - (2023-06-06)
 ---------------------------
 * Change: View comments permission only for authenticated
