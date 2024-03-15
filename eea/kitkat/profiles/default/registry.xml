@@ -1,6 +1,11 @@
 <registry>
-  	<records interface="eea.kitkat.interfaces.IEEAVersionsBackend" />
-  	<records interface="eea.kitkat.interfaces.IEEAVersionsFrontend" />
-
     <records interface="eea.kitkat.browser.captcha.ICaptchaSettings" />
+
+    <!-- Clean up old records - Moved to eea.api.controlpanel -->
+    <record name="eea.kitkat.interfaces.IEEAVersionsBackend.date" interface="eea.kitkat.interfaces.IEEAVersionsBackend" field="date" remove="True" />
+    <record name="eea.kitkat.interfaces.IEEAVersionsBackend.old_version" interface="eea.kitkat.interfaces.IEEAVersionsBackend" field="old_version" remove="True" />
+    <record name="eea.kitkat.interfaces.IEEAVersionsBackend.version" interface="eea.kitkat.interfaces.IEEAVersionsBackend" field="version" remove="True" />
+    <record name="eea.kitkat.interfaces.IEEAVersionsFrontend.date" interface="eea.kitkat.interfaces.IEEAVersionsFrontend" field="date" remove="True" />
+    <record name="eea.kitkat.interfaces.IEEAVersionsFrontend.old_version" interface="eea.kitkat.interfaces.IEEAVersionsFrontend" field="old_version" remove="True" />
+    <record name="eea.kitkat.interfaces.IEEAVersionsFrontend.version" interface="eea.kitkat.interfaces.IEEAVersionsFrontend" field="version" remove="True" />
 </registry>

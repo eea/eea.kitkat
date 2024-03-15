@@ -42,6 +42,7 @@ setup(
         install_requires=[
             'eea.banner',
             'eea.zotero',
+            'eea.api.controlpanel',
             'eea.api.layout',
             'eea.geolocation',
             'eea.coremetadata',

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <version>6.2</version>
+  <version>8.0</version>
   <dependencies>
     <dependency>profile-collective.taxonomy:default</dependency>
+    <dependency>profile-eea.api.controlpanel:default</dependency>
     <dependency>profile-eea.api.layout:default</dependency>
     <dependency>profile-eea.banner:default</dependency>
     <dependency>profile-eea.coremetadata:default</dependency>
