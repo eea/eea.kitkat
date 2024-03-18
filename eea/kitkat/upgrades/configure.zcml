@@ -96,5 +96,41 @@
       import_profile="eea.kitkat:kitkat_62"
       />
   </genericsetup:upgradeSteps>
+
+  <genericsetup:upgradeSteps
+    source="6.2"
+    destination="7.0"
+    profile="eea.kitkat:default">
+
+    <genericsetup:upgradeDepends
+      title="Import eea.api.controlpanel"
+      import_profile="eea.api.controlpanel:default"
+      />
+  </genericsetup:upgradeSteps>
+
+  <genericsetup:upgradeSteps
+    source="7.0"
+    destination="7.9"
+    profile="eea.kitkat:default">
+
+    <genericsetup:upgradeStep
+      title="Migrate registry keys eea.kitkat to eea.api.controlpanel"
+      handler="eea.kitkat.upgrades.evolve80.cleanup"
+      />
+
+  </genericsetup:upgradeSteps>
+
+  <genericsetup:upgradeSteps
+    source="7.9"
+    destination="8.0"
+    profile="eea.kitkat:default">
+
+    <genericsetup:upgradeDepends
+      title="Cleanup eea.kitkat version registry"
+      import_steps="plone.app.registry"
+      />
+
+  </genericsetup:upgradeSteps>
+
 </configure>
 

@@ -1,6 +1,11 @@
 Changelog
 =========
 
+8.0 - (2024-03-15)
+---------------------------
+* Refactor: Move Version overview related code to eea.api.controlpanel
+  [avoinea - refs #264531]
+
 7.0 - (2023-10-18)
 ---------------------------
 * Breaking: Remove pas.plugin.oidc dependency

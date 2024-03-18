@@ -6,6 +6,7 @@
   <i18n:registerTranslations directory="locales" />
 
   <include package="collective.taxonomy" />
+  <include package="eea.api.controlpanel" />
   <include package="eea.api.layout" />
   <include package="eea.banner" />
   <include package="eea.geolocation" />
@@ -19,9 +20,5 @@
   <include package=".browser" />
   <include package=".restapi" />
   <include package=".upgrades" />
-
-  <subscriber for="eea.kitkat.interfaces.IEEAVersionsFrontend
-                   plone.registry.interfaces.IRecordModifiedEvent"
-              handler=".events.detectVersionChange" />
 
 </configure>
