@@ -1,6 +1,9 @@
 Changelog
 =========
 
+8.1-dev0 - (unreleased)
+---------------------------
+
 8.0 - (2024-03-15)
 ---------------------------
 * Refactor: Move Version overview related code to eea.api.controlpanel
