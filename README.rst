@@ -147,14 +147,10 @@ Included Plone Add-ons
   :target: https://plonerestapi.readthedocs.org
   :alt: Docs
 
-`collective.taxonomy <https://github.com/eea/collective.taxonomy>`_
+`collective.taxonomy <https://github.com/collective/collective.taxonomy>`_
 
-.. image:: https://github.com/collective/collective.taxonomy/workflows/CI/badge.svg
-  :target: https://github.com/collective/collective.taxonomy/actions
-  :alt: CI
-.. image:: https://coveralls.io/repos/github/collective/collective.taxonomy/badge.svg
-  :target: https://coveralls.io/github/collective/collective.taxonomy
-  :alt: Coverage
+.. |CI| image:: https://github.com/collective/collective.taxonomy/actions/workflows/main.yml/badge.svg
+   :target: https://github.com/collective/collective.taxonomy/actions
 
 Main features
 =============
