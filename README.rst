@@ -149,8 +149,8 @@ Included Plone Add-ons
 
 `collective.taxonomy <https://github.com/collective/collective.taxonomy>`_
 
-.. |CI| image:: https://github.com/collective/collective.taxonomy/actions/workflows/main.yml/badge.svg
-   :target: https://github.com/collective/collective.taxonomy/actions
+.. image:: https://github.com/collective/collective.taxonomy/actions/workflows/main.yml/badge.svg
+  :target: https://github.com/collective/collective.taxonomy/actions
 
 Main features
 =============
