@@ -23,6 +23,7 @@ setup(
         "Framework :: Plone :: Addon",
         "Framework :: Plone :: 5.2",
         "Framework :: Plone :: 6.0",
+        "Framework :: Plone :: Distribution",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
@@ -52,6 +53,7 @@ setup(
             'collective.taxonomy',
             'plone.volto',
             'plone.restapi',
+            "plone.distribution>=2.0.0b1",
             'setuptools',
         ],
     extras_require={

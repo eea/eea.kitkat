@@ -5,6 +5,7 @@
 
   <i18n:registerTranslations directory="locales" />
 
+  <include package="plone.distribution" />
   <include package="collective.taxonomy" />
   <include package="eea.api.controlpanel" />
   <include package="eea.api.layout" />

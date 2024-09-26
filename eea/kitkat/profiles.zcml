@@ -2,6 +2,7 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     xmlns:five="http://namespaces.zope.org/five"
+    xmlns:plone="http://namespaces.plone.org/plone"
     i18n_domain="eea">
 
   <five:registerPackage package="." initialize=".initialize" />
@@ -31,6 +32,13 @@
       description="Uninstalls the eea.kitkat add-on."
       provides="Products.GenericSetup.interfaces.EXTENSION"
       post_handler=".setuphandlers.uninstall"
+      />
+
+  <plone:distribution
+      name="eea.kitkat"
+      title="EEA Kitkat"
+      description="A Plone site already configured to be used with the Volto EEA Kitkat add-ons."
+      directory="distributions/kitkat"
       />
 
   <genericsetup:registerProfile

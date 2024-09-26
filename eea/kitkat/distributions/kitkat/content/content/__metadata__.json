@@ -1,0 +1,146 @@
+{
+  "__version__": "1.0.0",
+  "_blob_files_": [
+    "90529309abe4419fa62af41e72341c0c/image/pexels-saban-cifcibasi-123881420-15167409.jpg",
+    "87b9f55c87f5482f944308b3dbb0c0c6/image/frontpage2.jpg"
+  ],
+  "_data_files_": [
+    "plone_site_root/data.json",
+    "90529309abe4419fa62af41e72341c0c/data.json",
+    "87b9f55c87f5482f944308b3dbb0c0c6/data.json"
+  ],
+  "default_page": {},
+  "local_permissions": {
+    "87b9f55c87f5482f944308b3dbb0c0c6": {},
+    "90529309abe4419fa62af41e72341c0c": {},
+    "plone_site_root": {
+      "Add portal member": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator",
+          "Owner"
+        ]
+      },
+      "Content rules: Manage rules": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Delete own comments": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator",
+          "Reviewer",
+          "Owner"
+        ]
+      },
+      "Reply to item": {
+        "acquire": false,
+        "roles": [
+          "Authenticated"
+        ]
+      },
+      "Set own password": {
+        "acquire": false,
+        "roles": [
+          "Authenticated",
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Set own properties": {
+        "acquire": false,
+        "roles": [
+          "Authenticated",
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Show Toolbar": {
+        "acquire": false,
+        "roles": [
+          "Authenticated"
+        ]
+      },
+      "eea.geolocation.settings: Edit": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "eea.geolocation.settings: View": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator",
+          "Contributor",
+          "Owner",
+          "Editor"
+        ]
+      },
+      "eea.zotero.settings: Edit": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "eea.zotero.settings: View": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator",
+          "Contributor",
+          "Owner",
+          "Editor"
+        ]
+      },
+      "plone.resource: Export ZIP file": {
+        "acquire": false,
+        "roles": [
+          "Manager"
+        ]
+      },
+      "plone.resourceeditor: Manage Sources": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator"
+        ]
+      }
+    }
+  },
+  "local_roles": {
+    "87b9f55c87f5482f944308b3dbb0c0c6": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "90529309abe4419fa62af41e72341c0c": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "plone_site_root": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    }
+  },
+  "ordering": {
+    "87b9f55c87f5482f944308b3dbb0c0c6": 43,
+    "90529309abe4419fa62af41e72341c0c": 42
+  },
+  "relations": []
+}
