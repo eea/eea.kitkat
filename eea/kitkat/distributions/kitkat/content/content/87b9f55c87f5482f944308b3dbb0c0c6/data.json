@@ -17,18 +17,18 @@
   "exportimport.versions": {},
   "id": "frontpage2.jpg",
   "image": {
-    "blob_path": "87b9f55c87f5482f944308b3dbb0c0c6/image/frontpage2.jpg",
+    "blob_path": "87b9f55c87f5482f944308b3dbb0c0c6/image/44510177971_70207a89d2_k.jpg",
     "content-type": "image/jpeg",
-    "filename": "frontpage2.jpg",
-    "height": 3640,
-    "size": 2357532,
-    "width": 5464
+    "filename": "44510177971_70207a89d2_k.jpg",
+    "height": 1333,
+    "size": 553717,
+    "width": 2000
   },
   "is_folderish": false,
   "language": "##DEFAULT##",
   "layout": "image_view",
   "lock": {},
-  "modified": "2024-09-26T15:22:51+00:00",
+  "modified": "2024-09-26T16:07:28+00:00",
   "parent": {
     "@id": "/",
     "@type": "Plone Site",

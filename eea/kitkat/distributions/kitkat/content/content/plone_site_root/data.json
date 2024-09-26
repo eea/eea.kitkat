@@ -16,18 +16,18 @@
             {
               "children": [
                 {
-                  "text": "\u00a9 Francesco Ungaro"
+                  "text": "Thunderstorm Approaching' \u00a9 John Hall"
                 }
               ],
               "type": "p"
             }
           ],
-          "link": "https://github.com/eea/volto-eea-kitkat",
+          "link": "https://plone.org/",
           "text": [
             {
               "children": [
                 {
-                  "text": "You can use this site to test Plone with the EEA Kitkat Add-ons"
+                  "text": "Explore the capabilities of Plone 6 with EEA KitKat Add-ons at your fingertips."
                 }
               ],
               "type": "p"
@@ -42,48 +42,90 @@
             {
               "children": [
                 {
-                  "text": "\u00a9 Mikhail Nilov"
+                  "text": "Fennel \u00a9 Weronika Sydow"
                 }
               ],
               "type": "p"
             }
           ],
-          "link": "https://github.com/plone/volto",
+          "link": "https://github.com/eea/volto-eea-kitkat",
           "text": [
             {
               "children": [
                 {
-                  "text": "This demo does not provide a Volto theme, it is using the default Volto theme."
+                  "text": "This demo showcases Plone 6 with the sleek Volto Theme, optimized by EEA KitKat Add-ons."
                 }
               ],
               "type": "p"
             }
           ],
-          "title": "You are enjoying our EEA Kitkat Add-ons"
+          "title": "Experience the Power of EEA KitKat Add-ons"
+        },
+        {
+          "@id": "49d433df-ac43-4d24-a33c-7686f35be6eb",
+          "attachedimage": "http://localhost:3000/frontend3.jpg",
+          "copyright": [
+            {
+              "children": [
+                {
+                  "text": "Natural abstract \u00a9 Petar Sabol"
+                }
+              ],
+              "type": "p"
+            }
+          ],
+          "link": "https://eea.github.io",
+          "text": [
+            {
+              "children": [
+                {
+                  "text": "Unlock the full potential of EEA Kitkat Add-ons using the EEA Design System and EEA Website Theme for a cohesive experience."
+                }
+              ],
+              "type": "p"
+            }
+          ],
+          "title": "Seamless Integration with EEA Design System"
         }
       ],
       "display": "carousel",
       "fade": true,
       "height": "600",
       "hideArrows": false,
-      "hideNavigationDots": false,
+      "hideNavigationDots": true,
       "image_scale": "huge",
       "infinite": true,
       "pauseOnHover": true
     },
-    "62c52119-500c-465e-a92d-8061b28a8053": {
-      "@type": "slate",
-      "plaintext": "",
-      "value": [
+    "aa218c62-8414-48c5-a5c3-e67fb11577ec": {
+      "@type": "imagecards",
+      "cards": [
         {
-          "children": [
-            {
-              "text": ""
-            }
-          ],
-          "type": "p"
+          "@id": "1f4495c5-6e55-48e6-8ac3-c8fe0aee740b",
+          "attachedimage": "/frontpage1.jpg",
+          "title": "Responsive"
+        },
+        {
+          "@id": "0e0ec467-23ed-491d-a50d-7ce19e69bee5",
+          "attachedimage": "/frontpage2.jpg",
+          "title": "User friendly"
+        },
+        {
+          "@id": "1d0db2e1-134b-434e-8d42-049bdbfa8d1f",
+          "attachedimage": "/frontend3.jpg",
+          "title": "Powerfull"
+        },
+        {
+          "@id": "df1f38de-9ee5-4344-b783-26a6ce30767b",
+          "attachedimage": "http://localhost:3000/frontpage4.jpg",
+          "title": "Headless"
         }
-      ]
+      ],
+      "display": "round_tiled",
+      "image_scale": "large"
+    },
+    "dfa686ef-9d8f-4449-91f6-e8597bb6287d": {
+      "@type": "slate"
     },
     "undefined": {
       "@type": "toc",
@@ -96,7 +138,8 @@
   "blocks_layout": {
     "items": [
       "4516f02b-c203-4c45-b5f6-7b57611214ed",
-      "62c52119-500c-465e-a92d-8061b28a8053"
+      "aa218c62-8414-48c5-a5c3-e67fb11577ec",
+      "dfa686ef-9d8f-4449-91f6-e8597bb6287d"
     ]
   },
   "contributors": [],
@@ -112,7 +155,7 @@
   "exportimport.versions": {},
   "id": "Plone",
   "is_folderish": true,
-  "items_total": 2,
+  "items_total": 4,
   "language": "##DEFAULT##",
   "lock": {
     "locked": false,

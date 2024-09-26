@@ -1,10 +1,10 @@
 {
-  "@id": "/frontpage1.jpg",
+  "@id": "/frontpage4.jpg",
   "@type": "Image",
-  "UID": "90529309abe4419fa62af41e72341c0c",
+  "UID": "df0048a20a274964ab6b9947d5ac679b",
   "allow_discussion": false,
   "contributors": [],
-  "created": "2024-09-26T15:11:21+00:00",
+  "created": "2024-09-26T17:33:17+00:00",
   "creators": [
     "admin"
   ],
@@ -15,20 +15,20 @@
   "exportimport.constrains": {},
   "exportimport.conversation": [],
   "exportimport.versions": {},
-  "id": "frontpage1.jpg",
+  "id": "frontpage4.jpg",
   "image": {
-    "blob_path": "90529309abe4419fa62af41e72341c0c/image/36993303126_57682ff36a_k.jpg",
+    "blob_path": "df0048a20a274964ab6b9947d5ac679b/image/frontpage4.jpg",
     "content-type": "image/jpeg",
-    "filename": "36993303126_57682ff36a_k.jpg",
-    "height": 972,
-    "size": 344643,
-    "width": 2047
+    "filename": "frontpage4.jpg",
+    "height": 1366,
+    "size": 1664098,
+    "width": 2048
   },
   "is_folderish": false,
   "language": "##DEFAULT##",
   "layout": "image_view",
   "lock": {},
-  "modified": "2024-09-26T15:45:51+00:00",
+  "modified": "2024-09-26T17:33:17+00:00",
   "parent": {
     "@id": "/",
     "@type": "Plone Site",
@@ -40,7 +40,7 @@
   "review_state": null,
   "rights": "",
   "subjects": [],
-  "title": "frontpage1.jpg",
+  "title": "frontpage4.jpg",
   "type_title": "Image",
   "version": "current",
   "workflow_history": {},

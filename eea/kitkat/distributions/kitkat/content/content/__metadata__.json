@@ -1,18 +1,24 @@
 {
   "__version__": "1.0.0",
   "_blob_files_": [
-    "90529309abe4419fa62af41e72341c0c/image/pexels-saban-cifcibasi-123881420-15167409.jpg",
-    "87b9f55c87f5482f944308b3dbb0c0c6/image/frontpage2.jpg"
+    "6705dc271a4b497d815d0b8aa3adfc21/image/frontend3.jpg",
+    "90529309abe4419fa62af41e72341c0c/image/36993303126_57682ff36a_k.jpg",
+    "87b9f55c87f5482f944308b3dbb0c0c6/image/44510177971_70207a89d2_k.jpg",
+    "df0048a20a274964ab6b9947d5ac679b/image/frontpage4.jpg"
   ],
   "_data_files_": [
     "plone_site_root/data.json",
+    "6705dc271a4b497d815d0b8aa3adfc21/data.json",
     "90529309abe4419fa62af41e72341c0c/data.json",
-    "87b9f55c87f5482f944308b3dbb0c0c6/data.json"
+    "87b9f55c87f5482f944308b3dbb0c0c6/data.json",
+    "df0048a20a274964ab6b9947d5ac679b/data.json"
   ],
   "default_page": {},
   "local_permissions": {
+    "6705dc271a4b497d815d0b8aa3adfc21": {},
     "87b9f55c87f5482f944308b3dbb0c0c6": {},
     "90529309abe4419fa62af41e72341c0c": {},
+    "df0048a20a274964ab6b9947d5ac679b": {},
     "plone_site_root": {
       "Add portal member": {
         "acquire": false,
@@ -116,6 +122,13 @@
     }
   },
   "local_roles": {
+    "6705dc271a4b497d815d0b8aa3adfc21": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
     "87b9f55c87f5482f944308b3dbb0c0c6": {
       "local_roles": {
         "admin": [
@@ -124,6 +137,13 @@
       }
     },
     "90529309abe4419fa62af41e72341c0c": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "df0048a20a274964ab6b9947d5ac679b": {
       "local_roles": {
         "admin": [
           "Owner"
@@ -139,8 +159,10 @@
     }
   },
   "ordering": {
+    "6705dc271a4b497d815d0b8aa3adfc21": 44,
     "87b9f55c87f5482f944308b3dbb0c0c6": 43,
-    "90529309abe4419fa62af41e72341c0c": 42
+    "90529309abe4419fa62af41e72341c0c": 42,
+    "df0048a20a274964ab6b9947d5ac679b": 45
   },
   "relations": []
 }
