@@ -629,6 +629,37 @@
       "title": "Exclusive",
       "title_size": "h3"
     },
+    "8d1ec27b-2286-49d7-a5d9-330e82514716": {
+      "@type": "slate",
+      "plaintext": "See more: Github ",
+      "styles": {
+        "textAlign": "right"
+      },
+      "value": [
+        {
+          "children": [
+            {
+              "text": "See more: "
+            },
+            {
+              "children": [
+                {
+                  "text": "Github"
+                }
+              ],
+              "data": {
+                "url": "https://github.com/eea/volto-accordion-block?tab=readme-ov-file#volto-accordion-block"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
     "a3d17785-921d-4487-9bbc-31cf86e77b79": {
       "@type": "slate"
     },
@@ -1054,6 +1085,7 @@
   },
   "blocks_layout": {
     "items": [
+      "8d1ec27b-2286-49d7-a5d9-330e82514716",
       "04416b74-075e-4a75-b941-a8eeb227c5bc",
       "a5b0f26f-254d-4f32-8928-60c1cbbe5652",
       "d1a5c1c8-5d01-4a0d-b61d-7cd6e986976d",
@@ -1093,10 +1125,18 @@
   "language": "##DEFAULT##",
   "layout": "document_view",
   "lock": {
-    "locked": false,
-    "stealable": true
+    "created": "2024-09-27T12:47:38+00:00",
+    "creator": "admin",
+    "creator_name": "admin",
+    "creator_url": "http://nohost/Plone/author/admin",
+    "locked": true,
+    "name": "plone.locking.stealable",
+    "stealable": true,
+    "time": 1727441258.6029491,
+    "timeout": 600,
+    "token": "0.16960906794294683-0.9106153234368978-00105A989226:1727441258.603"
   },
-  "modified": "2024-09-27T11:21:51+00:00",
+  "modified": "2024-09-27T12:47:04+00:00",
   "parent": {
     "@id": "/blocks-1",
     "@type": "Document",

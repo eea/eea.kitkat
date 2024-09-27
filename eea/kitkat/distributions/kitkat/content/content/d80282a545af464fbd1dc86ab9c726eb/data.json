@@ -56,10 +56,42 @@
     },
     "70bbd52a-0286-43ab-be3d-1347805ca09d": {
       "@type": "title"
+    },
+    "de5ab529-0bd3-450b-b625-d812388a80a9": {
+      "@type": "slate",
+      "plaintext": "See more: Github ",
+      "styles": {
+        "textAlign": "right"
+      },
+      "value": [
+        {
+          "children": [
+            {
+              "text": "See more: "
+            },
+            {
+              "children": [
+                {
+                  "text": "Github"
+                }
+              ],
+              "data": {
+                "url": "https://github.com/eea/volto-description-block?tab=readme-ov-file#volto-description-block"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
     }
   },
   "blocks_layout": {
     "items": [
+      "de5ab529-0bd3-450b-b625-d812388a80a9",
       "70bbd52a-0286-43ab-be3d-1347805ca09d",
       "1b736d92-2c5f-4503-8206-38e4dcf64b84"
     ]
@@ -84,7 +116,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2024-09-27T11:42:37+00:00",
+  "modified": "2024-09-27T12:48:25+00:00",
   "parent": {
     "@id": "/blocks-1",
     "@type": "Document",

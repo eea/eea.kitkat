@@ -113,6 +113,37 @@
         }
       ]
     },
+    "3e70b9ad-f359-4087-9999-a42dc23fadb0": {
+      "@type": "slate",
+      "plaintext": "See more: Github ",
+      "styles": {
+        "textAlign": "right"
+      },
+      "value": [
+        {
+          "children": [
+            {
+              "text": "See more: "
+            },
+            {
+              "children": [
+                {
+                  "text": "Github"
+                }
+              ],
+              "data": {
+                "url": "https://github.com/eea/volto-block-divider?tab=readme-ov-file#volto-block-divider"
+              },
+              "type": "link"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
     "42bcd5d5-d68a-4765-9c8d-bd5e26a461ae": {
       "@type": "slate",
       "plaintext": "With text",
@@ -403,6 +434,7 @@
   },
   "blocks_layout": {
     "items": [
+      "3e70b9ad-f359-4087-9999-a42dc23fadb0",
       "8fcd1463-94af-4297-8dd2-f5370a801026",
       "fa71a03b-656e-40a9-927a-62222e23c9a8",
       "9201ee45-02ea-4e97-9e2a-7a3a8345a5fc",
@@ -457,7 +489,7 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2024-09-27T11:54:05+00:00",
+  "modified": "2024-09-27T12:49:33+00:00",
   "parent": {
     "@id": "/blocks-1",
     "@type": "Document",
