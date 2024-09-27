@@ -1,0 +1,77 @@
+{
+  "@id": "/widgets",
+  "@type": "Document",
+  "UID": "03d28f6756084791ae915638b9e611d4",
+  "allow_discussion": false,
+  "blocks": {
+    "7eba5afa-46aa-4cc3-82c8-928918da6e78": {
+      "@type": "slate"
+    },
+    "d1cb7010-3b84-43dc-87a4-61e7ccc1e000": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "d1cb7010-3b84-43dc-87a4-61e7ccc1e000",
+      "7eba5afa-46aa-4cc3-82c8-928918da6e78"
+    ]
+  },
+  "contributors": [],
+  "created": "2024-09-27T10:57:50+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "",
+  "effective": "2024-09-27T12:58:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "widgets",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-09-27T10:58:11+00:00",
+  "parent": {
+    "@id": "/",
+    "@type": "Plone Site",
+    "UID": "plone_site_root",
+    "description": "A Plone 6 Demo website for the Volto EEA Kitkat TM add-ons",
+    "title": "Welcome to EEA Kitkat (Plone 6)",
+    "type_title": "Plone Site"
+  },
+  "preview_caption": null,
+  "preview_image": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Widgets",
+  "type_title": "Page",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2024-09-27T10:57:50+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-09-27T10:58:11+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

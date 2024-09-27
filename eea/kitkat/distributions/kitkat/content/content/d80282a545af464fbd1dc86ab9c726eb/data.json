@@ -1,0 +1,128 @@
+{
+  "@id": "/blocks-1/description-block",
+  "@type": "Document",
+  "UID": "d80282a545af464fbd1dc86ab9c726eb",
+  "allow_discussion": false,
+  "blocks": {
+    "1b736d92-2c5f-4503-8206-38e4dcf64b84": {
+      "@type": "description",
+      "plaintext": " Description block support rich text functionality while the Dublin core metadata of this page remains plain text. ",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            },
+            {
+              "children": [
+                {
+                  "text": "Description block"
+                }
+              ],
+              "type": "strong"
+            },
+            {
+              "text": " support rich text functionality while the Dublin core metadata of "
+            },
+            {
+              "children": [
+                {
+                  "text": "this page"
+                }
+              ],
+              "data": {
+                "url": "../../resolveuid/d80282a545af464fbd1dc86ab9c726eb"
+              },
+              "type": "link"
+            },
+            {
+              "text": " remains "
+            },
+            {
+              "children": [
+                {
+                  "text": "plain text."
+                }
+              ],
+              "type": "em"
+            },
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "70bbd52a-0286-43ab-be3d-1347805ca09d": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "70bbd52a-0286-43ab-be3d-1347805ca09d",
+      "1b736d92-2c5f-4503-8206-38e4dcf64b84"
+    ]
+  },
+  "contributors": [],
+  "created": "2024-09-27T11:08:05+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": " Description block support rich text functionality while the Dublin core metadata of this page remains plain text. ",
+  "effective": "2024-09-27T13:08:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "description-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-09-27T11:42:37+00:00",
+  "parent": {
+    "@id": "/blocks-1",
+    "@type": "Document",
+    "UID": "fa8fbb4982ee4b99984141bbadd4f673",
+    "description": " Description block support rich text functionality while the Dublin core metadata of this page remains plain text. ",
+    "effective": "2024-09-27T10:57:00+00:00",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Blocks",
+    "type_title": "Page"
+  },
+  "preview_caption": null,
+  "preview_image": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Description Block",
+  "type_title": "Page",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2024-09-27T11:08:05+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-09-27T11:08:36+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

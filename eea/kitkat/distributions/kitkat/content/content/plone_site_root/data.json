@@ -4,6 +4,158 @@
   "UID": "plone_site_root",
   "allow_discussion": null,
   "blocks": {
+    "1cc21ca3-a99a-4d1f-b082-2eab7a02b653": {
+      "@type": "statistic_block",
+      "animation": {
+        "enabled": true
+      },
+      "horizontal": false,
+      "inverted": false,
+      "items": [
+        {
+          "@id": "3464ddb0-da52-4e03-9e05-2b6320eb4727",
+          "href": "resolveuid/fa8fbb4982ee4b99984141bbadd4f673",
+          "info": [
+            {
+              "children": [
+                {
+                  "text": "Volto Blocks"
+                }
+              ],
+              "type": "p"
+            }
+          ],
+          "label": [
+            {
+              "children": [
+                {
+                  "text": "Blocks"
+                }
+              ],
+              "type": "p"
+            }
+          ],
+          "value": [
+            {
+              "children": [
+                {
+                  "text": "17"
+                }
+              ],
+              "type": "p"
+            }
+          ]
+        },
+        {
+          "@id": "aa149eee-262a-4b8d-a167-5a12094d811b",
+          "href": "resolveuid/03d28f6756084791ae915638b9e611d4",
+          "info": [
+            {
+              "children": [
+                {
+                  "text": "Volto Widgets"
+                }
+              ],
+              "type": "p"
+            }
+          ],
+          "label": [
+            {
+              "children": [
+                {
+                  "text": "Widgets"
+                }
+              ],
+              "type": "p"
+            }
+          ],
+          "value": [
+            {
+              "children": [
+                {
+                  "text": "6"
+                }
+              ],
+              "type": "p"
+            }
+          ]
+        },
+        {
+          "@id": "40b54efd-ec0a-43a4-935a-dd2188d1b43d",
+          "href": "resolveuid/638785f2ce0d436094bc2d12cb04afe8",
+          "info": [
+            {
+              "children": [
+                {
+                  "text": "Slate Extensions"
+                }
+              ],
+              "type": "p"
+            }
+          ],
+          "label": [
+            {
+              "children": [
+                {
+                  "text": "Slate"
+                }
+              ],
+              "type": "p"
+            }
+          ],
+          "value": [
+            {
+              "children": [
+                {
+                  "text": "4"
+                }
+              ],
+              "type": "p"
+            }
+          ]
+        },
+        {
+          "@id": "bd9a8f8d-7103-4721-9af7-d32a63f9477a",
+          "href": "resolveuid/092709ee30ff494395e4f80508abff86",
+          "info": [
+            {
+              "children": [
+                {
+                  "text": "Volto Enhancements"
+                }
+              ],
+              "type": "p"
+            }
+          ],
+          "label": [
+            {
+              "children": [
+                {
+                  "text": "Other"
+                }
+              ],
+              "type": "p"
+            }
+          ],
+          "value": [
+            {
+              "children": [
+                {
+                  "text": "12"
+                }
+              ],
+              "type": "p"
+            }
+          ]
+        }
+      ],
+      "size": "small",
+      "styles": {
+        "align": "center",
+        "textAlign": "center"
+      },
+      "widths": "four"
+    },
     "4516f02b-c203-4c45-b5f6-7b57611214ed": {
       "@type": "imagecards",
       "align": "full",
@@ -33,7 +185,7 @@
               "type": "p"
             }
           ],
-          "title": "Welcome to Plone 6"
+          "title": "Welcome to Plone (EEA Kitkat Distribution)"
         },
         {
           "@id": "2bbabffe-6247-49aa-b9bb-b79636867ffd",
@@ -42,7 +194,7 @@
             {
               "children": [
                 {
-                  "text": "Fennel \u00a9 Weronika Sydow"
+                  "text": "Happy puddle \u00a9 Mikhail Kapychka"
                 }
               ],
               "type": "p"
@@ -53,13 +205,13 @@
             {
               "children": [
                 {
-                  "text": "This demo showcases Plone 6 with the sleek Volto Theme, optimized by EEA KitKat Add-ons."
+                  "text": "This demo showcases Plone 6 with EEA KitKat Add-ons."
                 }
               ],
               "type": "p"
             }
           ],
-          "title": "Experience the Power of EEA KitKat Add-ons"
+          "title": "Extend Plone with the EEA KitKat Add-ons"
         },
         {
           "@id": "49d433df-ac43-4d24-a33c-7686f35be6eb",
@@ -79,13 +231,13 @@
             {
               "children": [
                 {
-                  "text": "Unlock the full potential of EEA Kitkat Add-ons using the EEA Design System and EEA Website Theme for a cohesive experience."
+                  "text": "Unlock the full potential of EEA Kitkat Add-ons using the EEA Design System and EEA Website Theme"
                 }
               ],
               "type": "p"
             }
           ],
-          "title": "Seamless Integration with EEA Design System"
+          "title": "EEA Design System"
         }
       ],
       "display": "carousel",
@@ -97,35 +249,250 @@
       "infinite": true,
       "pauseOnHover": true
     },
+    "46ce65f5-0521-42b0-86f0-f0a06d0d5068": {
+      "@type": "dividerBlock",
+      "hidden": true,
+      "section": true,
+      "spacing": "s",
+      "styles": {}
+    },
+    "506c9104-fa9b-429a-952d-0d35d8509726": {
+      "@type": "dividerBlock",
+      "hidden": true,
+      "section": true,
+      "spacing": "s",
+      "styles": {}
+    },
+    "5636e7ce-d6b1-4877-a683-8b74958bfd17": {
+      "@type": "columnsBlock",
+      "data": {
+        "blocks": {
+          "903b6a2f-01d5-4c61-9425-a3386e76cf90": {
+            "blocks": {
+              "26cf9f9c-1064-4dab-a890-b07d641bf7f7": {
+                "@type": "slate"
+              },
+              "65a8b38b-b01f-4d13-8a04-c3d1ed4f6ed3": {
+                "@type": "dividerBlock",
+                "hidden": true,
+                "section": true,
+                "spacing": "s",
+                "styles": {}
+              },
+              "8429d945-b5c7-4d3d-94f0-ae27136fb823": {
+                "@type": "slate",
+                "plaintext": " The CMS that gives you peace of mind.   As content editor, developer, webmaster, owner, and solutions provider    ",
+                "styles": {
+                  "textAlign": "center"
+                },
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": "The CMS that gives you peace of mind."
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": "\nAs content editor, developer, webmaster, owner, and solutions provider"
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": ""
+                      },
+                      {
+                        "children": [
+                          {
+                            "text": ""
+                          }
+                        ],
+                        "type": "strong"
+                      },
+                      {
+                        "text": ""
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "65a8b38b-b01f-4d13-8a04-c3d1ed4f6ed3",
+                "26cf9f9c-1064-4dab-a890-b07d641bf7f7",
+                "8429d945-b5c7-4d3d-94f0-ae27136fb823"
+              ]
+            }
+          },
+          "b7ae0aff-014c-44c3-941c-c4aaab0a9003": {
+            "blocks": {
+              "4d86ad7b-1440-4856-b22b-09ff8527c062": {
+                "@type": "slate"
+              },
+              "98f5f8d9-0628-4de7-85c2-aacf5ddcac09": {
+                "@type": "image",
+                "alt": "",
+                "image_field": "image",
+                "size": "m",
+                "url": "resolveuid/25da0630537044c1b1c51a937071d18a"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "98f5f8d9-0628-4de7-85c2-aacf5ddcac09",
+                "4d86ad7b-1440-4856-b22b-09ff8527c062"
+              ]
+            }
+          },
+          "d806d882-bd99-4a7a-9f1f-1ad5dd9f6412": {
+            "blocks": {
+              "b61f2114-14e3-42da-99a9-6b8d5d3cda89": {
+                "@type": "image",
+                "alt": "plone-logo",
+                "image_field": "image",
+                "size": "m",
+                "url": "resolveuid/f38450703cdc4dc2b3fbca0126682be0"
+              },
+              "dfc26a58-e204-44ab-b4bf-e56ecf753080": {
+                "@type": "slate"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "b61f2114-14e3-42da-99a9-6b8d5d3cda89",
+                "dfc26a58-e204-44ab-b4bf-e56ecf753080"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "d806d882-bd99-4a7a-9f1f-1ad5dd9f6412",
+            "903b6a2f-01d5-4c61-9425-a3386e76cf90",
+            "b7ae0aff-014c-44c3-941c-c4aaab0a9003"
+          ]
+        }
+      },
+      "gridCols": [
+        "oneThirdSmall",
+        "halfWidthBig",
+        "oneThirdSmall"
+      ],
+      "gridSize": 12
+    },
+    "6240057e-e98c-4019-83dd-0cbb6abd9941": {
+      "@type": "slate",
+      "plaintext": "Why Plone",
+      "styles": {
+        "textAlign": "center"
+      },
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Why Plone"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "6a857646-8afa-48d9-9350-4ca690c29e18": {
+      "@type": "slate",
+      "plaintext": "EEA Kitkat Add-ons",
+      "styles": {
+        "textAlign": "center"
+      },
+      "value": [
+        {
+          "children": [
+            {
+              "text": "EEA Kitkat Add-ons"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
     "aa218c62-8414-48c5-a5c3-e67fb11577ec": {
       "@type": "imagecards",
+      "align": "center",
       "cards": [
         {
           "@id": "1f4495c5-6e55-48e6-8ac3-c8fe0aee740b",
           "attachedimage": "/frontpage1.jpg",
-          "title": "Responsive"
+          "title": "Fast"
         },
         {
           "@id": "0e0ec467-23ed-491d-a50d-7ce19e69bee5",
           "attachedimage": "/frontpage2.jpg",
-          "title": "User friendly"
-        },
-        {
-          "@id": "1d0db2e1-134b-434e-8d42-049bdbfa8d1f",
-          "attachedimage": "/frontend3.jpg",
-          "title": "Powerfull"
+          "title": "Secure & Solid"
         },
         {
           "@id": "df1f38de-9ee5-4344-b783-26a6ce30767b",
           "attachedimage": "http://localhost:3000/frontpage4.jpg",
-          "title": "Headless"
+          "text": [
+            {
+              "children": [
+                {
+                  "text": ""
+                }
+              ],
+              "type": "p"
+            }
+          ],
+          "title": "Open & Free"
+        },
+        {
+          "@id": "1d0db2e1-134b-434e-8d42-049bdbfa8d1f",
+          "attachedimage": "/frontend3.jpg",
+          "title": "Add-ons"
         }
       ],
       "display": "round_tiled",
-      "image_scale": "large"
+      "image_scale": "large",
+      "text": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
     },
-    "dfa686ef-9d8f-4449-91f6-e8597bb6287d": {
-      "@type": "slate"
+    "eb80b41f-4df5-400a-a458-5cc874bfcaec": {
+      "@type": "dividerBlock",
+      "hidden": true,
+      "section": true,
+      "spacing": "s",
+      "styles": {}
     },
     "undefined": {
       "@type": "toc",
@@ -138,8 +505,14 @@
   "blocks_layout": {
     "items": [
       "4516f02b-c203-4c45-b5f6-7b57611214ed",
+      "eb80b41f-4df5-400a-a458-5cc874bfcaec",
+      "6240057e-e98c-4019-83dd-0cbb6abd9941",
       "aa218c62-8414-48c5-a5c3-e67fb11577ec",
-      "dfa686ef-9d8f-4449-91f6-e8597bb6287d"
+      "6a857646-8afa-48d9-9350-4ca690c29e18",
+      "506c9104-fa9b-429a-952d-0d35d8509726",
+      "1cc21ca3-a99a-4d1f-b082-2eab7a02b653",
+      "46ce65f5-0521-42b0-86f0-f0a06d0d5068",
+      "5636e7ce-d6b1-4877-a683-8b74958bfd17"
     ]
   },
   "contributors": [],
@@ -155,7 +528,7 @@
   "exportimport.versions": {},
   "id": "Plone",
   "is_folderish": true,
-  "items_total": 4,
+  "items_total": 9,
   "language": "##DEFAULT##",
   "lock": {
     "locked": false,

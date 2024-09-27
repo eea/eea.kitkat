@@ -1,0 +1,501 @@
+{
+  "@id": "/blocks-1/divider-block",
+  "@type": "Document",
+  "UID": "6260ff72ce534ba1bcf3a93f167a02d6",
+  "allow_discussion": false,
+  "blocks": {
+    "014ba25c-d34a-4155-9f4d-ce3582699056": {
+      "@type": "dividerBlock",
+      "hidden": false,
+      "section": false,
+      "short": false,
+      "spacing": "m",
+      "styles": {
+        "inverted": true,
+        "theme": "primary"
+      }
+    },
+    "112d21be-639e-4c16-bf82-758650378f31": {
+      "@type": "slate",
+      "plaintext": "Nunc sed turpis. Duis leo. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. In hac habitasse platea dictumst.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Nunc sed turpis. Duis leo. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. In hac habitasse platea dictumst."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "216ce0f6-4a36-47ae-977e-76fc62ead870": {
+      "@type": "slate",
+      "plaintext": "Less space",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Less space"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "26790643-bec4-4dc1-8785-ce71fb165418": {
+      "@type": "slate",
+      "plaintext": "Ut id nisl quis enim dignissim sagittis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Sed a libero. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Ut id nisl quis enim dignissim sagittis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Sed a libero. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "279d7100-345f-45c0-803d-2980396c6784": {
+      "@type": "slate",
+      "plaintext": "Hidden",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Hidden"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "2aec7846-8f79-479f-863b-3df3b8a252a4": {
+      "@type": "slate",
+      "plaintext": "Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Curabitur blandit mollis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Vestibulum ullamcorper mauris at ligula. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Curabitur blandit mollis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Vestibulum ullamcorper mauris at ligula. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "3134a404-295e-4573-a083-4349285e555c": {
+      "@type": "slate",
+      "plaintext": "Nunc sed turpis. Duis leo. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. In hac habitasse platea dictumst.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Nunc sed turpis. Duis leo. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. In hac habitasse platea dictumst."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "3308ea8d-1ec4-4cac-bb79-cd0553902dd3": {
+      "@type": "slate",
+      "plaintext": "Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Curabitur blandit mollis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Vestibulum ullamcorper mauris at ligula. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Curabitur blandit mollis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Vestibulum ullamcorper mauris at ligula. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "42bcd5d5-d68a-4765-9c8d-bd5e26a461ae": {
+      "@type": "slate",
+      "plaintext": "With text",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "With text"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "43b93050-8669-4d0a-8464-e8a59df25152": {
+      "@type": "slate",
+      "plaintext": "In hac habitasse platea dictumst. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Ut varius tincidunt libero. Aenean massa. Quisque id mi.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "In hac habitasse platea dictumst. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Ut varius tincidunt libero. Aenean massa. Quisque id mi."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "4d22d027-ddd6-47dd-9bbf-ddb6d82b7428": {
+      "@type": "dividerBlock",
+      "spacing": "s",
+      "styles": {},
+      "title": "Default"
+    },
+    "4e4ff363-e996-4584-82df-1f7dd25394d7": {
+      "@type": "dividerBlock",
+      "short": true,
+      "spacing": "s",
+      "styles": {}
+    },
+    "55c20e0d-01aa-47d0-8485-f143f3fa9e44": {
+      "@type": "slate",
+      "plaintext": "Nunc sed turpis. Duis leo. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. In hac habitasse platea dictumst.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Nunc sed turpis. Duis leo. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. In hac habitasse platea dictumst."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "5cec627b-0546-46c9-9a20-2e5bd115f6bb": {
+      "@type": "slate",
+      "plaintext": "Nunc sed turpis. Duis leo. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. In hac habitasse platea dictumst.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Nunc sed turpis. Duis leo. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. In hac habitasse platea dictumst."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "694e5741-9c6b-49c8-a918-c0d077eefb8a": {
+      "@type": "slate",
+      "plaintext": "More space",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "More space"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "6bae01c6-6a9c-4cda-80b2-2488d58954ea": {
+      "@type": "slate",
+      "plaintext": "Ut id nisl quis enim dignissim sagittis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Sed a libero. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Ut id nisl quis enim dignissim sagittis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Sed a libero. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "7e210a1d-4aee-4c66-8f29-511966a88a54": {
+      "@type": "slate",
+      "plaintext": "Nunc sed turpis. Duis leo. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. In hac habitasse platea dictumst.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Nunc sed turpis. Duis leo. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. In hac habitasse platea dictumst."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "8bcf9b01-0acc-44b3-af67-c4590cbab49e": {
+      "@type": "dividerBlock",
+      "section": true,
+      "spacing": "s",
+      "styles": {},
+      "text": "\ud83d\ude0d \ud83e\udd70 \ud83e\udd29"
+    },
+    "8fcd1463-94af-4297-8dd2-f5370a801026": {
+      "@type": "title"
+    },
+    "9009d8e6-6009-4879-b1ae-e318492c34d2": {
+      "@type": "dividerBlock",
+      "hidden": true,
+      "section": false,
+      "spacing": "s",
+      "styles": {},
+      "title": "Hidden"
+    },
+    "9201ee45-02ea-4e97-9e2a-7a3a8345a5fc": {
+      "@type": "slate",
+      "plaintext": "Default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Default"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "94bad331-31eb-4f3f-b1b1-a04443d1d661": {
+      "@type": "dividerBlock",
+      "fitted": false,
+      "section": true,
+      "spacing": "s",
+      "styles": {},
+      "title": "Section"
+    },
+    "982a11ed-e0b7-4454-9453-666e1eaae3c0": {
+      "@type": "slate",
+      "plaintext": "In hac habitasse platea dictumst. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Ut varius tincidunt libero. Aenean massa. Quisque id mi.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "In hac habitasse platea dictumst. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Ut varius tincidunt libero. Aenean massa. Quisque id mi."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "98d07043-175e-4f7c-942e-644f6671f854": {
+      "@type": "dividerBlock",
+      "fitted": true,
+      "spacing": "s",
+      "styles": {},
+      "title": "Fitted"
+    },
+    "9af2f607-bf74-4c28-98a2-8a5dd936aac8": {
+      "@type": "slate",
+      "plaintext": "Short",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Short"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "a7cda144-4f41-497a-a420-84d83073bb8d": {
+      "@type": "slate",
+      "plaintext": "Ut id nisl quis enim dignissim sagittis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Sed a libero. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Ut id nisl quis enim dignissim sagittis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Sed a libero. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "a81a9e81-958c-4d09-95b6-72762168d34d": {
+      "@type": "dividerBlock",
+      "spacing": "s",
+      "styles": {},
+      "text": "with text",
+      "title": "With text"
+    },
+    "c0bc4606-d079-45ac-bf5c-bc4ae921b53b": {
+      "@type": "slate",
+      "plaintext": "Ut id nisl quis enim dignissim sagittis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Sed a libero. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Ut id nisl quis enim dignissim sagittis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Sed a libero. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "c8613dfb-510d-473c-b305-f39d37619761": {
+      "@type": "slate",
+      "plaintext": "Ut id nisl quis enim dignissim sagittis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Sed a libero. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Ut id nisl quis enim dignissim sagittis. Quisque libero metus, condimentum nec, tempor a, commodo mollis, magna. Suspendisse enim turpis, dictum sed, iaculis a, condimentum nec, nisi. Sed a libero. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "ce41d768-fb9e-4689-ba59-648f833aab16": {
+      "@type": "slate",
+      "plaintext": "Nunc sed turpis. Duis leo. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. In hac habitasse platea dictumst.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Nunc sed turpis. Duis leo. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi. Suspendisse faucibus, nunc et pellentesque egestas, lacus ante convallis tellus, vitae iaculis lacus elit id tortor. In hac habitasse platea dictumst."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "cece17ad-f5cb-4abc-9531-fad8906e30bc": {
+      "@type": "slate",
+      "plaintext": "Themed",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Themed"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "fa71a03b-656e-40a9-927a-62222e23c9a8": {
+      "@type": "description",
+      "plaintext": "The Volto Divider Block is a simple yet effective content management tool available in the Volto frontend for the Plone CMS framework. It allows content creators to visually separate sections of a webpage, improving clarity, structure, and design aesthetics. The Divider Block doesn\u2019t contain any text or interactive elements, but it plays a crucial role in creating clean, well-organized layouts.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The "
+            },
+            {
+              "children": [
+                {
+                  "text": "Volto Divider Block"
+                }
+              ],
+              "type": "b"
+            },
+            {
+              "text": " is a simple yet effective content management tool available in the Volto frontend for the Plone CMS framework. It allows content creators to visually separate sections of a webpage, improving clarity, structure, and design aesthetics. The Divider Block doesn\u2019t contain any text or interactive elements, but it plays a crucial role in creating clean, well-organized layouts."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "8fcd1463-94af-4297-8dd2-f5370a801026",
+      "fa71a03b-656e-40a9-927a-62222e23c9a8",
+      "9201ee45-02ea-4e97-9e2a-7a3a8345a5fc",
+      "982a11ed-e0b7-4454-9453-666e1eaae3c0",
+      "4d22d027-ddd6-47dd-9bbf-ddb6d82b7428",
+      "43b93050-8669-4d0a-8464-e8a59df25152",
+      "42bcd5d5-d68a-4765-9c8d-bd5e26a461ae",
+      "ce41d768-fb9e-4689-ba59-648f833aab16",
+      "a81a9e81-958c-4d09-95b6-72762168d34d",
+      "26790643-bec4-4dc1-8785-ce71fb165418",
+      "8bcf9b01-0acc-44b3-af67-c4590cbab49e",
+      "112d21be-639e-4c16-bf82-758650378f31",
+      "279d7100-345f-45c0-803d-2980396c6784",
+      "a7cda144-4f41-497a-a420-84d83073bb8d",
+      "9009d8e6-6009-4879-b1ae-e318492c34d2",
+      "6bae01c6-6a9c-4cda-80b2-2488d58954ea",
+      "216ce0f6-4a36-47ae-977e-76fc62ead870",
+      "3308ea8d-1ec4-4cac-bb79-cd0553902dd3",
+      "98d07043-175e-4f7c-942e-644f6671f854",
+      "2aec7846-8f79-479f-863b-3df3b8a252a4",
+      "694e5741-9c6b-49c8-a918-c0d077eefb8a",
+      "c0bc4606-d079-45ac-bf5c-bc4ae921b53b",
+      "94bad331-31eb-4f3f-b1b1-a04443d1d661",
+      "c8613dfb-510d-473c-b305-f39d37619761",
+      "9af2f607-bf74-4c28-98a2-8a5dd936aac8",
+      "3134a404-295e-4573-a083-4349285e555c",
+      "4e4ff363-e996-4584-82df-1f7dd25394d7",
+      "7e210a1d-4aee-4c66-8f29-511966a88a54",
+      "cece17ad-f5cb-4abc-9531-fad8906e30bc",
+      "5cec627b-0546-46c9-9a20-2e5bd115f6bb",
+      "014ba25c-d34a-4155-9f4d-ce3582699056",
+      "55c20e0d-01aa-47d0-8485-f143f3fa9e44"
+    ]
+  },
+  "contributors": [],
+  "created": "2024-09-27T11:31:06+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "The Volto Divider Block is a simple yet effective content management tool available in the Volto frontend for the Plone CMS framework. It allows content creators to visually separate sections of a webpage, improving clarity, structure, and design aesthetics. The Divider Block doesn\u2019t contain any text or interactive elements, but it plays a crucial role in creating clean, well-organized layouts.",
+  "effective": "2024-09-27T13:31:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "divider-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-09-27T11:54:05+00:00",
+  "parent": {
+    "@id": "/blocks-1",
+    "@type": "Document",
+    "UID": "fa8fbb4982ee4b99984141bbadd4f673",
+    "description": " Description block support rich text functionality while the Dublin core metadata of this page remains plain text. ",
+    "effective": "2024-09-27T10:57:00+00:00",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Blocks",
+    "type_title": "Page"
+  },
+  "preview_caption": null,
+  "preview_image": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Divider Block",
+  "type_title": "Page",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2024-09-27T11:31:06+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-09-27T11:31:51+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

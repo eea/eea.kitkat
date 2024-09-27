@@ -1,0 +1,98 @@
+{
+  "@id": "/blocks-1",
+  "@type": "Document",
+  "UID": "fa8fbb4982ee4b99984141bbadd4f673",
+  "allow_discussion": false,
+  "blocks": {
+    "8981bcf9-6809-4a09-8ea5-25e4cee797d5": {
+      "@type": "listing",
+      "headlineTag": "h2",
+      "itemModel": {
+        "@type": "card",
+        "callToAction": {
+          "label": "Read more"
+        },
+        "hasDate": false,
+        "hasEventDate": false,
+        "hasLink": true,
+        "maxDescription": 2,
+        "maxTitle": 2,
+        "styles": {},
+        "titleOnImage": false
+      },
+      "slidesToScroll": 1,
+      "slidesToShow": 4,
+      "variation": "cardsGallery"
+    },
+    "c0603631-1c13-4841-9fad-0780536a097a": {
+      "@type": "title"
+    },
+    "e28a0eb4-fb26-4c6a-8f77-36513c147f1b": {
+      "@type": "slate"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "c0603631-1c13-4841-9fad-0780536a097a",
+      "8981bcf9-6809-4a09-8ea5-25e4cee797d5",
+      "e28a0eb4-fb26-4c6a-8f77-36513c147f1b"
+    ]
+  },
+  "contributors": [],
+  "created": "2024-09-27T10:57:35+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": " Description block support rich text functionality while the Dublin core metadata of this page remains plain text. ",
+  "effective": "2024-09-27T12:57:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "blocks-1",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-09-27T11:44:32+00:00",
+  "parent": {
+    "@id": "/",
+    "@type": "Plone Site",
+    "UID": "plone_site_root",
+    "description": "A Plone 6 Demo website for the Volto EEA Kitkat TM add-ons",
+    "title": "Welcome to EEA Kitkat (Plone 6)",
+    "type_title": "Plone Site"
+  },
+  "preview_caption": null,
+  "preview_image": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Blocks",
+  "type_title": "Page",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2024-09-27T10:57:35+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-09-27T10:57:40+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

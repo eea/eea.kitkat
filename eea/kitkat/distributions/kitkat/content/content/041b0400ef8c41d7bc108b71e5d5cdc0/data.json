@@ -1,0 +1,270 @@
+{
+  "@id": "/blocks-1/call-to-action-block",
+  "@type": "Document",
+  "UID": "041b0400ef8c41d7bc108b71e5d5cdc0",
+  "allow_discussion": false,
+  "blocks": {
+    "0a1ab8af-b5d3-443e-86b2-b20ed30467ad": {
+      "@type": "slate",
+      "plaintext": "Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Curabitur blandit mollis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Vestibulum ullamcorper mauris at ligula. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Curabitur blandit mollis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Vestibulum ullamcorper mauris at ligula. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "29d47a80-f32e-4e54-8a2e-ac7467c63698": {
+      "@type": "description",
+      "plaintext": "An essential content block in the Volto frontend for Plone CMS that allows content editors to create compelling, action-oriented sections within a webpage. The CTA block is designed to encourage users to take a specific action, such as clicking a button, signing up for a service, or downloading a resource.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "An essential content block in the Volto frontend for Plone CMS that allows content editors to create compelling, action-oriented sections within a webpage. The CTA block is designed to encourage users to take a specific action, such as clicking a button, signing up for a service, or downloading a resource."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "2d1dc5c0-2f81-488c-b50b-90dd6453cfe5": {
+      "@type": "slate",
+      "plaintext": "Align center",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Align center"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "384f3893-1d6c-4c64-a920-5471afa810ee": {
+      "@type": "slate",
+      "plaintext": "Align left",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Align left"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "4285a82b-9bb7-4e4e-8bcb-09db0ead5379": {
+      "@type": "slate",
+      "plaintext": "Align right",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Align right"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "4a708984-d398-4b85-b3b3-93c4eb51e59a": {
+      "@type": "title"
+    },
+    "51034255-e148-4e9f-9f59-cc2efa4c93dc": {
+      "@type": "callToActionBlock",
+      "download": false,
+      "href": "../../resolveuid/fa8fbb4982ee4b99984141bbadd4f673",
+      "styles": {
+        "align": "left",
+        "theme": "primary"
+      },
+      "text": "Call to action (left)"
+    },
+    "7c4881d9-e6d6-41d8-b8cc-a5f2b13d1822": {
+      "@type": "callToActionBlock",
+      "download": false,
+      "href": "../../resolveuid/fa8fbb4982ee4b99984141bbadd4f673",
+      "styles": {
+        "align": "right",
+        "theme": "secondary"
+      },
+      "text": "Call to action (right)"
+    },
+    "7cbb1eeb-4b7c-481e-b4fe-c600638fc343": {
+      "@type": "callToActionBlock",
+      "download": false,
+      "href": "../../resolveuid/fa8fbb4982ee4b99984141bbadd4f673",
+      "styles": {
+        "theme": "tertiary"
+      },
+      "text": "Call to action (center)"
+    },
+    "7eb3e3c2-f7e9-4db9-9da0-77b34fd1c829": {
+      "@type": "slate",
+      "plaintext": "Align full width",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Align full width"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    },
+    "a981db02-999f-4737-a900-011c0d09cdd4": {
+      "@type": "slate",
+      "plaintext": "Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Curabitur blandit mollis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Vestibulum ullamcorper mauris at ligula. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Curabitur blandit mollis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Vestibulum ullamcorper mauris at ligula. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "aa3e1ffe-4927-4b7d-a27a-b61c29661344": {
+      "@type": "slate",
+      "plaintext": "Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Curabitur blandit mollis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Vestibulum ullamcorper mauris at ligula. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Curabitur blandit mollis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Vestibulum ullamcorper mauris at ligula. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "c3011bde-df72-472c-8946-653eea4e988c": {
+      "@type": "slate",
+      "plaintext": "Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Curabitur blandit mollis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Vestibulum ullamcorper mauris at ligula. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Sed mollis, eros et ultrices tempus, mauris ipsum aliquam libero, non adipiscing dolor urna a orci. Curabitur blandit mollis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In ac dui quis mi consectetuer lacinia. Vestibulum ullamcorper mauris at ligula. Donec mi odio, faucibus at, scelerisque quis, convallis in, nisi."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "e0a1f33b-fb79-4e40-9c72-3d29c70c1a2d": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "e83a671c-18fd-4a24-bd17-4687dea25535": {
+      "@type": "callToActionBlock",
+      "download": false,
+      "href": "../../resolveuid/fa8fbb4982ee4b99984141bbadd4f673",
+      "styles": {
+        "align": "full",
+        "theme": "primary"
+      },
+      "text": "Call to action (full width)"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "4a708984-d398-4b85-b3b3-93c4eb51e59a",
+      "29d47a80-f32e-4e54-8a2e-ac7467c63698",
+      "384f3893-1d6c-4c64-a920-5471afa810ee",
+      "0a1ab8af-b5d3-443e-86b2-b20ed30467ad",
+      "51034255-e148-4e9f-9f59-cc2efa4c93dc",
+      "4285a82b-9bb7-4e4e-8bcb-09db0ead5379",
+      "aa3e1ffe-4927-4b7d-a27a-b61c29661344",
+      "7c4881d9-e6d6-41d8-b8cc-a5f2b13d1822",
+      "2d1dc5c0-2f81-488c-b50b-90dd6453cfe5",
+      "c3011bde-df72-472c-8946-653eea4e988c",
+      "7cbb1eeb-4b7c-481e-b4fe-c600638fc343",
+      "7eb3e3c2-f7e9-4db9-9da0-77b34fd1c829",
+      "a981db02-999f-4737-a900-011c0d09cdd4",
+      "e83a671c-18fd-4a24-bd17-4687dea25535",
+      "e0a1f33b-fb79-4e40-9c72-3d29c70c1a2d"
+    ]
+  },
+  "contributors": [],
+  "created": "2024-09-27T11:38:14+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "An essential content block in the Volto frontend for Plone CMS that allows content editors to create compelling, action-oriented sections within a webpage. The CTA block is designed to encourage users to take a specific action, such as clicking a button, signing up for a service, or downloading a resource.",
+  "effective": "2024-09-27T13:41:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "call-to-action-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-09-27T12:23:53+00:00",
+  "parent": {
+    "@id": "/blocks-1",
+    "@type": "Document",
+    "UID": "fa8fbb4982ee4b99984141bbadd4f673",
+    "description": " Description block support rich text functionality while the Dublin core metadata of this page remains plain text. ",
+    "effective": "2024-09-27T10:57:00+00:00",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Blocks",
+    "type_title": "Page"
+  },
+  "preview_caption": null,
+  "preview_image": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Call To Action Block",
+  "type_title": "Page",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2024-09-27T11:38:14+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-09-27T11:41:22+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

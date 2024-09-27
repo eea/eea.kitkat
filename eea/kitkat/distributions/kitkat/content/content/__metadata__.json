@@ -1,24 +1,46 @@
 {
   "__version__": "1.0.0",
   "_blob_files_": [
+    "25da0630537044c1b1c51a937071d18a/image/eea-logo.jpg",
     "6705dc271a4b497d815d0b8aa3adfc21/image/frontend3.jpg",
     "90529309abe4419fa62af41e72341c0c/image/36993303126_57682ff36a_k.jpg",
     "87b9f55c87f5482f944308b3dbb0c0c6/image/44510177971_70207a89d2_k.jpg",
-    "df0048a20a274964ab6b9947d5ac679b/image/frontpage4.jpg"
+    "df0048a20a274964ab6b9947d5ac679b/image/frontpage4.jpg",
+    "f38450703cdc4dc2b3fbca0126682be0/image/Plone_logo_square.png"
   ],
   "_data_files_": [
     "plone_site_root/data.json",
+    "fa8fbb4982ee4b99984141bbadd4f673/data.json",
+    "bf4e838d49de41cc9189e41e16761516/data.json",
+    "041b0400ef8c41d7bc108b71e5d5cdc0/data.json",
+    "d80282a545af464fbd1dc86ab9c726eb/data.json",
+    "6260ff72ce534ba1bcf3a93f167a02d6/data.json",
+    "25da0630537044c1b1c51a937071d18a/data.json",
     "6705dc271a4b497d815d0b8aa3adfc21/data.json",
     "90529309abe4419fa62af41e72341c0c/data.json",
     "87b9f55c87f5482f944308b3dbb0c0c6/data.json",
-    "df0048a20a274964ab6b9947d5ac679b/data.json"
+    "df0048a20a274964ab6b9947d5ac679b/data.json",
+    "092709ee30ff494395e4f80508abff86/data.json",
+    "f38450703cdc4dc2b3fbca0126682be0/data.json",
+    "638785f2ce0d436094bc2d12cb04afe8/data.json",
+    "03d28f6756084791ae915638b9e611d4/data.json"
   ],
   "default_page": {},
   "local_permissions": {
+    "03d28f6756084791ae915638b9e611d4": {},
+    "041b0400ef8c41d7bc108b71e5d5cdc0": {},
+    "092709ee30ff494395e4f80508abff86": {},
+    "25da0630537044c1b1c51a937071d18a": {},
+    "6260ff72ce534ba1bcf3a93f167a02d6": {},
+    "638785f2ce0d436094bc2d12cb04afe8": {},
     "6705dc271a4b497d815d0b8aa3adfc21": {},
     "87b9f55c87f5482f944308b3dbb0c0c6": {},
     "90529309abe4419fa62af41e72341c0c": {},
+    "bf4e838d49de41cc9189e41e16761516": {},
+    "d80282a545af464fbd1dc86ab9c726eb": {},
     "df0048a20a274964ab6b9947d5ac679b": {},
+    "f38450703cdc4dc2b3fbca0126682be0": {},
+    "fa8fbb4982ee4b99984141bbadd4f673": {},
     "plone_site_root": {
       "Add portal member": {
         "acquire": false,
@@ -122,6 +144,48 @@
     }
   },
   "local_roles": {
+    "03d28f6756084791ae915638b9e611d4": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "041b0400ef8c41d7bc108b71e5d5cdc0": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "092709ee30ff494395e4f80508abff86": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "25da0630537044c1b1c51a937071d18a": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "6260ff72ce534ba1bcf3a93f167a02d6": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "638785f2ce0d436094bc2d12cb04afe8": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
     "6705dc271a4b497d815d0b8aa3adfc21": {
       "local_roles": {
         "admin": [
@@ -143,7 +207,35 @@
         ]
       }
     },
+    "bf4e838d49de41cc9189e41e16761516": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "d80282a545af464fbd1dc86ab9c726eb": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
     "df0048a20a274964ab6b9947d5ac679b": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "f38450703cdc4dc2b3fbca0126682be0": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "fa8fbb4982ee4b99984141bbadd4f673": {
       "local_roles": {
         "admin": [
           "Owner"
@@ -159,10 +251,20 @@
     }
   },
   "ordering": {
-    "6705dc271a4b497d815d0b8aa3adfc21": 44,
+    "03d28f6756084791ae915638b9e611d4": 47,
+    "041b0400ef8c41d7bc108b71e5d5cdc0": 1,
+    "092709ee30ff494395e4f80508abff86": 49,
+    "25da0630537044c1b1c51a937071d18a": 51,
+    "6260ff72ce534ba1bcf3a93f167a02d6": 3,
+    "638785f2ce0d436094bc2d12cb04afe8": 48,
+    "6705dc271a4b497d815d0b8aa3adfc21": 45,
     "87b9f55c87f5482f944308b3dbb0c0c6": 43,
     "90529309abe4419fa62af41e72341c0c": 42,
-    "df0048a20a274964ab6b9947d5ac679b": 45
+    "bf4e838d49de41cc9189e41e16761516": 0,
+    "d80282a545af464fbd1dc86ab9c726eb": 2,
+    "df0048a20a274964ab6b9947d5ac679b": 44,
+    "f38450703cdc4dc2b3fbca0126682be0": 50,
+    "fa8fbb4982ee4b99984141bbadd4f673": 46
   },
   "relations": []
 }

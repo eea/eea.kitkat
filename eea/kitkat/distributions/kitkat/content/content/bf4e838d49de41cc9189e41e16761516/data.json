@@ -1,0 +1,1140 @@
+{
+  "@id": "/blocks-1/accordion-block",
+  "@type": "Document",
+  "UID": "bf4e838d49de41cc9189e41e16761516",
+  "allow_discussion": false,
+  "blocks": {
+    "03c9fd67-b7de-449f-afed-d6543b4276f1": {
+      "@type": "dividerBlock",
+      "hidden": false,
+      "section": true,
+      "short": true,
+      "spacing": "s",
+      "styles": {}
+    },
+    "04416b74-075e-4a75-b941-a8eeb227c5bc": {
+      "@type": "title"
+    },
+    "0684ec28-372f-401b-a8dd-c830c85522ae": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "0ad3f1e4-fa88-4c9f-b3b6-97c2ee496454": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "3be02b61-77cf-4203-a37c-2e1dfb96c124": {
+      "@type": "slate"
+    },
+    "4d901c73-1967-4286-8ba8-55305cc9f374": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "5bc3001b-d4fe-4aaf-81a1-2782404063a9": {
+      "@type": "accordion",
+      "collapsed": true,
+      "data": {
+        "blocks": {
+          "020b9b16-2bcc-4ec3-bc73-269d337c0fcc": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "87ee7475-8cad-4cab-bc08-517a57a2b9e4": {
+                "@type": "slate",
+                "plaintext": "Content within each section of the accordion is dynamically loaded when expanded, reducing initial page load times, which is especially useful for content-heavy pages.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Content within each section of the accordion is dynamically loaded when expanded, reducing initial page load times, which is especially useful for content-heavy pages."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "87ee7475-8cad-4cab-bc08-517a57a2b9e4"
+              ]
+            },
+            "title": "Dynamic Content Management"
+          },
+          "44be65d0-f7b3-48aa-9915-3f5a8646b04d": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "8cca84b5-c601-4468-bc76-567a1998a24b": {
+                "@type": "slate",
+                "plaintext": "It adapts seamlessly to different screen sizes, ensuring a consistent and optimized user experience on desktops, tablets, and mobile devices.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "It adapts seamlessly to different screen sizes, ensuring a consistent and optimized user experience on desktops, tablets, and mobile devices."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "8cca84b5-c601-4468-bc76-567a1998a24b"
+              ]
+            },
+            "title": "Responsive Design"
+          },
+          "4e0bab77-05cf-40cd-ade1-a870ed8de960": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "55b7d12f-92db-4a97-afd6-923522b21d63": {
+                "@type": "slate",
+                "plaintext": "Content creators can define how many sections are opened by default, choose the alignment, and apply custom styles to match the website\u2019s design guidelines.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Content creators can define how many sections are opened by default, choose the alignment, and apply custom styles to match the website\u2019s design guidelines."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "55b7d12f-92db-4a97-afd6-923522b21d63"
+              ]
+            },
+            "title": "Customizable Options"
+          },
+          "bcb0c86a-71c7-4ed4-ad43-d783ae39145e": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "b5d114ad-9ff4-46ee-a691-a3a0488a2971": {
+                "@type": "slate",
+                "plaintext": "The accordion block consists of multiple sections (or panels), each with a title that users can click to expand or collapse the content. This provides a clean, space-saving way to present detailed information.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "The accordion block consists of multiple sections (or panels), each with a title that users can click to expand or collapse the content. This provides a clean, space-saving way to present detailed information."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "b5d114ad-9ff4-46ee-a691-a3a0488a2971"
+              ]
+            },
+            "title": "Expandable Sections"
+          },
+          "f11189d1-be2d-428e-86b1-5d3705bb7425": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "352cfb33-4dc3-4dfa-90f6-ddedbc720a41": {
+                "@type": "slate",
+                "plaintext": "By enabling content to be structured in a more compact way, it helps with SEO since search engines can crawl all sections of the accordion, making it easier for users to find the information they need.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "By enabling content to be structured in a more compact way, it helps with SEO since search engines can crawl all sections of the accordion, making it easier for users to find the information they need."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "352cfb33-4dc3-4dfa-90f6-ddedbc720a41"
+              ]
+            },
+            "title": "SEO Benefits"
+          },
+          "f3cc4879-d78a-4eb7-8c78-87f66d888d06": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "39c65325-1915-482a-b6a0-fe7a0598160b": {
+                "@type": "slate",
+                "plaintext": "It\u2019s designed to be intuitive and easy to use for both content creators and website visitors. The block enables content editors to add multiple panels with just a few clicks.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "It\u2019s designed to be intuitive and easy to use for both content creators and website visitors. The block enables content editors to add multiple panels with just a few clicks."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "39c65325-1915-482a-b6a0-fe7a0598160b"
+              ]
+            },
+            "title": "User-friendly Interface"
+          },
+          "f7c40bdc-d717-45d2-a562-909239c5124f": {
+            "blocks": {
+              "6c247e8b-1e62-4aa6-9dea-852791404632": {
+                "@type": "slate"
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "6c247e8b-1e62-4aa6-9dea-852791404632"
+              ]
+            }
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "bcb0c86a-71c7-4ed4-ad43-d783ae39145e",
+            "f3cc4879-d78a-4eb7-8c78-87f66d888d06",
+            "020b9b16-2bcc-4ec3-bc73-269d337c0fcc",
+            "4e0bab77-05cf-40cd-ade1-a870ed8de960",
+            "44be65d0-f7b3-48aa-9915-3f5a8646b04d",
+            "f11189d1-be2d-428e-86b1-5d3705bb7425",
+            "f7c40bdc-d717-45d2-a562-909239c5124f"
+          ]
+        }
+      },
+      "filtering": false,
+      "headline": "Accordion with arrows on the left",
+      "non_exclusive": true,
+      "right_arrows": false,
+      "styles": {
+        "textAlign": "",
+        "theme": "primary"
+      },
+      "title": "Arrows on the left",
+      "title_size": "h3"
+    },
+    "6e1c52c9-ad7d-4cbb-8223-29c68dbf50dc": {
+      "@type": "dividerBlock",
+      "hidden": false,
+      "section": true,
+      "short": true,
+      "spacing": "s",
+      "styles": {}
+    },
+    "7138dbd1-590b-429a-85c2-757da8ee8b80": {
+      "@type": "accordion",
+      "collapsed": true,
+      "data": {
+        "blocks": {
+          "020b9b16-2bcc-4ec3-bc73-269d337c0fcc": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "87ee7475-8cad-4cab-bc08-517a57a2b9e4": {
+                "@type": "slate",
+                "plaintext": "Content within each section of the accordion is dynamically loaded when expanded, reducing initial page load times, which is especially useful for content-heavy pages.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Content within each section of the accordion is dynamically loaded when expanded, reducing initial page load times, which is especially useful for content-heavy pages."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "87ee7475-8cad-4cab-bc08-517a57a2b9e4"
+              ]
+            },
+            "title": "Dynamic Content Management"
+          },
+          "44be65d0-f7b3-48aa-9915-3f5a8646b04d": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "8cca84b5-c601-4468-bc76-567a1998a24b": {
+                "@type": "slate",
+                "plaintext": "It adapts seamlessly to different screen sizes, ensuring a consistent and optimized user experience on desktops, tablets, and mobile devices.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "It adapts seamlessly to different screen sizes, ensuring a consistent and optimized user experience on desktops, tablets, and mobile devices."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "8cca84b5-c601-4468-bc76-567a1998a24b"
+              ]
+            },
+            "title": "Responsive Design"
+          },
+          "4e0bab77-05cf-40cd-ade1-a870ed8de960": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "55b7d12f-92db-4a97-afd6-923522b21d63": {
+                "@type": "slate",
+                "plaintext": "Content creators can define how many sections are opened by default, choose the alignment, and apply custom styles to match the website\u2019s design guidelines.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Content creators can define how many sections are opened by default, choose the alignment, and apply custom styles to match the website\u2019s design guidelines."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "55b7d12f-92db-4a97-afd6-923522b21d63"
+              ]
+            },
+            "title": "Customizable Options"
+          },
+          "bcb0c86a-71c7-4ed4-ad43-d783ae39145e": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "b5d114ad-9ff4-46ee-a691-a3a0488a2971": {
+                "@type": "slate",
+                "plaintext": "The accordion block consists of multiple sections (or panels), each with a title that users can click to expand or collapse the content. This provides a clean, space-saving way to present detailed information.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "The accordion block consists of multiple sections (or panels), each with a title that users can click to expand or collapse the content. This provides a clean, space-saving way to present detailed information."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "b5d114ad-9ff4-46ee-a691-a3a0488a2971"
+              ]
+            },
+            "title": "Expandable Sections"
+          },
+          "f11189d1-be2d-428e-86b1-5d3705bb7425": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "352cfb33-4dc3-4dfa-90f6-ddedbc720a41": {
+                "@type": "slate",
+                "plaintext": "By enabling content to be structured in a more compact way, it helps with SEO since search engines can crawl all sections of the accordion, making it easier for users to find the information they need.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "By enabling content to be structured in a more compact way, it helps with SEO since search engines can crawl all sections of the accordion, making it easier for users to find the information they need."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "352cfb33-4dc3-4dfa-90f6-ddedbc720a41"
+              ]
+            },
+            "title": "SEO Benefits"
+          },
+          "f3cc4879-d78a-4eb7-8c78-87f66d888d06": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "39c65325-1915-482a-b6a0-fe7a0598160b": {
+                "@type": "slate",
+                "plaintext": "It\u2019s designed to be intuitive and easy to use for both content creators and website visitors. The block enables content editors to add multiple panels with just a few clicks.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "It\u2019s designed to be intuitive and easy to use for both content creators and website visitors. The block enables content editors to add multiple panels with just a few clicks."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "39c65325-1915-482a-b6a0-fe7a0598160b"
+              ]
+            },
+            "title": "User-friendly Interface"
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "bcb0c86a-71c7-4ed4-ad43-d783ae39145e",
+            "f3cc4879-d78a-4eb7-8c78-87f66d888d06",
+            "020b9b16-2bcc-4ec3-bc73-269d337c0fcc",
+            "4e0bab77-05cf-40cd-ade1-a870ed8de960",
+            "44be65d0-f7b3-48aa-9915-3f5a8646b04d",
+            "f11189d1-be2d-428e-86b1-5d3705bb7425"
+          ]
+        }
+      },
+      "filtering": true,
+      "headline": "Accordion flitering",
+      "non_exclusive": false,
+      "right_arrows": false,
+      "styles": {
+        "textAlign": "",
+        "theme": "primary"
+      },
+      "title": "Filtering",
+      "title_size": "h3"
+    },
+    "7cd89784-eebc-480b-b5fa-e20a902f0b37": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "869d2af3-5548-44b8-bc0b-0e85c2a1bd1c": {
+      "@type": "accordion",
+      "collapsed": true,
+      "data": {
+        "blocks": {
+          "020b9b16-2bcc-4ec3-bc73-269d337c0fcc": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "87ee7475-8cad-4cab-bc08-517a57a2b9e4": {
+                "@type": "slate",
+                "plaintext": "Content within each section of the accordion is dynamically loaded when expanded, reducing initial page load times, which is especially useful for content-heavy pages.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Content within each section of the accordion is dynamically loaded when expanded, reducing initial page load times, which is especially useful for content-heavy pages."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "87ee7475-8cad-4cab-bc08-517a57a2b9e4"
+              ]
+            },
+            "title": "Dynamic Content Management"
+          },
+          "44be65d0-f7b3-48aa-9915-3f5a8646b04d": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "8cca84b5-c601-4468-bc76-567a1998a24b": {
+                "@type": "slate",
+                "plaintext": "It adapts seamlessly to different screen sizes, ensuring a consistent and optimized user experience on desktops, tablets, and mobile devices.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "It adapts seamlessly to different screen sizes, ensuring a consistent and optimized user experience on desktops, tablets, and mobile devices."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "8cca84b5-c601-4468-bc76-567a1998a24b"
+              ]
+            },
+            "title": "Responsive Design"
+          },
+          "4e0bab77-05cf-40cd-ade1-a870ed8de960": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "55b7d12f-92db-4a97-afd6-923522b21d63": {
+                "@type": "slate",
+                "plaintext": "Content creators can define how many sections are opened by default, choose the alignment, and apply custom styles to match the website\u2019s design guidelines.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Content creators can define how many sections are opened by default, choose the alignment, and apply custom styles to match the website\u2019s design guidelines."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "55b7d12f-92db-4a97-afd6-923522b21d63"
+              ]
+            },
+            "title": "Customizable Options"
+          },
+          "bcb0c86a-71c7-4ed4-ad43-d783ae39145e": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "b5d114ad-9ff4-46ee-a691-a3a0488a2971": {
+                "@type": "slate",
+                "plaintext": "The accordion block consists of multiple sections (or panels), each with a title that users can click to expand or collapse the content. This provides a clean, space-saving way to present detailed information.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "The accordion block consists of multiple sections (or panels), each with a title that users can click to expand or collapse the content. This provides a clean, space-saving way to present detailed information."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "b5d114ad-9ff4-46ee-a691-a3a0488a2971"
+              ]
+            },
+            "title": "Expandable Sections"
+          },
+          "f11189d1-be2d-428e-86b1-5d3705bb7425": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "352cfb33-4dc3-4dfa-90f6-ddedbc720a41": {
+                "@type": "slate",
+                "plaintext": "By enabling content to be structured in a more compact way, it helps with SEO since search engines can crawl all sections of the accordion, making it easier for users to find the information they need.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "By enabling content to be structured in a more compact way, it helps with SEO since search engines can crawl all sections of the accordion, making it easier for users to find the information they need."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "352cfb33-4dc3-4dfa-90f6-ddedbc720a41"
+              ]
+            },
+            "title": "SEO Benefits"
+          },
+          "f3cc4879-d78a-4eb7-8c78-87f66d888d06": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "39c65325-1915-482a-b6a0-fe7a0598160b": {
+                "@type": "slate",
+                "plaintext": "It\u2019s designed to be intuitive and easy to use for both content creators and website visitors. The block enables content editors to add multiple panels with just a few clicks.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "It\u2019s designed to be intuitive and easy to use for both content creators and website visitors. The block enables content editors to add multiple panels with just a few clicks."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "39c65325-1915-482a-b6a0-fe7a0598160b"
+              ]
+            },
+            "title": "User-friendly Interface"
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "bcb0c86a-71c7-4ed4-ad43-d783ae39145e",
+            "f3cc4879-d78a-4eb7-8c78-87f66d888d06",
+            "020b9b16-2bcc-4ec3-bc73-269d337c0fcc",
+            "4e0bab77-05cf-40cd-ade1-a870ed8de960",
+            "44be65d0-f7b3-48aa-9915-3f5a8646b04d",
+            "f11189d1-be2d-428e-86b1-5d3705bb7425"
+          ]
+        }
+      },
+      "filtering": false,
+      "headline": "Accordion exclusive",
+      "non_exclusive": false,
+      "right_arrows": false,
+      "styles": {
+        "textAlign": "",
+        "theme": "primary"
+      },
+      "title": "Exclusive",
+      "title_size": "h3"
+    },
+    "a3d17785-921d-4487-9bbc-31cf86e77b79": {
+      "@type": "slate"
+    },
+    "a5b0f26f-254d-4f32-8928-60c1cbbe5652": {
+      "@type": "description",
+      "plaintext": "The Volto Accordion Block is particularly helpful for presenting FAQs, long-form content, or any scenario where content needs to be structured in a way that balances detail with readability.",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "The Volto Accordion Block is particularly helpful for presenting FAQs, long-form content, or any scenario where content needs to be structured in a way that balances detail with readability."
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "b0de8a00-514f-4715-909b-1afebc448302": {
+      "@type": "accordion",
+      "collapsed": false,
+      "data": {
+        "blocks": {
+          "020b9b16-2bcc-4ec3-bc73-269d337c0fcc": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "87ee7475-8cad-4cab-bc08-517a57a2b9e4": {
+                "@type": "slate",
+                "plaintext": "Content within each section of the accordion is dynamically loaded when expanded, reducing initial page load times, which is especially useful for content-heavy pages.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Content within each section of the accordion is dynamically loaded when expanded, reducing initial page load times, which is especially useful for content-heavy pages."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "87ee7475-8cad-4cab-bc08-517a57a2b9e4"
+              ]
+            },
+            "title": "Dynamic Content Management"
+          },
+          "44be65d0-f7b3-48aa-9915-3f5a8646b04d": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "8cca84b5-c601-4468-bc76-567a1998a24b": {
+                "@type": "slate",
+                "plaintext": "It adapts seamlessly to different screen sizes, ensuring a consistent and optimized user experience on desktops, tablets, and mobile devices.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "It adapts seamlessly to different screen sizes, ensuring a consistent and optimized user experience on desktops, tablets, and mobile devices."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "8cca84b5-c601-4468-bc76-567a1998a24b"
+              ]
+            },
+            "title": "Responsive Design"
+          },
+          "4e0bab77-05cf-40cd-ade1-a870ed8de960": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "55b7d12f-92db-4a97-afd6-923522b21d63": {
+                "@type": "slate",
+                "plaintext": "Content creators can define how many sections are opened by default, choose the alignment, and apply custom styles to match the website\u2019s design guidelines.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Content creators can define how many sections are opened by default, choose the alignment, and apply custom styles to match the website\u2019s design guidelines."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "55b7d12f-92db-4a97-afd6-923522b21d63"
+              ]
+            },
+            "title": "Customizable Options"
+          },
+          "bcb0c86a-71c7-4ed4-ad43-d783ae39145e": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "b5d114ad-9ff4-46ee-a691-a3a0488a2971": {
+                "@type": "slate",
+                "plaintext": "The accordion block consists of multiple sections (or panels), each with a title that users can click to expand or collapse the content. This provides a clean, space-saving way to present detailed information.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "The accordion block consists of multiple sections (or panels), each with a title that users can click to expand or collapse the content. This provides a clean, space-saving way to present detailed information."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "b5d114ad-9ff4-46ee-a691-a3a0488a2971"
+              ]
+            },
+            "title": "Expandable Sections"
+          },
+          "f11189d1-be2d-428e-86b1-5d3705bb7425": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "352cfb33-4dc3-4dfa-90f6-ddedbc720a41": {
+                "@type": "slate",
+                "plaintext": "By enabling content to be structured in a more compact way, it helps with SEO since search engines can crawl all sections of the accordion, making it easier for users to find the information they need.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "By enabling content to be structured in a more compact way, it helps with SEO since search engines can crawl all sections of the accordion, making it easier for users to find the information they need."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "352cfb33-4dc3-4dfa-90f6-ddedbc720a41"
+              ]
+            },
+            "title": "SEO Benefits"
+          },
+          "f3cc4879-d78a-4eb7-8c78-87f66d888d06": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "39c65325-1915-482a-b6a0-fe7a0598160b": {
+                "@type": "slate",
+                "plaintext": "It\u2019s designed to be intuitive and easy to use for both content creators and website visitors. The block enables content editors to add multiple panels with just a few clicks.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "It\u2019s designed to be intuitive and easy to use for both content creators and website visitors. The block enables content editors to add multiple panels with just a few clicks."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "39c65325-1915-482a-b6a0-fe7a0598160b"
+              ]
+            },
+            "title": "User-friendly Interface"
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "bcb0c86a-71c7-4ed4-ad43-d783ae39145e",
+            "f3cc4879-d78a-4eb7-8c78-87f66d888d06",
+            "020b9b16-2bcc-4ec3-bc73-269d337c0fcc",
+            "4e0bab77-05cf-40cd-ade1-a870ed8de960",
+            "44be65d0-f7b3-48aa-9915-3f5a8646b04d",
+            "f11189d1-be2d-428e-86b1-5d3705bb7425"
+          ]
+        }
+      },
+      "filtering": false,
+      "headline": "Accordion not collapsed by default",
+      "non_exclusive": true,
+      "right_arrows": false,
+      "styles": {
+        "textAlign": "",
+        "theme": "primary"
+      },
+      "title": "Arrows not collapsed by default",
+      "title_size": "h3"
+    },
+    "b520f585-24e2-4c51-9512-3f6f6b2ab450": {
+      "@type": "dividerBlock",
+      "hidden": false,
+      "section": true,
+      "short": true,
+      "spacing": "s",
+      "styles": {}
+    },
+    "bf253b6e-28f2-41d4-a94d-b8e76b344652": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    },
+    "d1a5c1c8-5d01-4a0d-b61d-7cd6e986976d": {
+      "@type": "dividerBlock",
+      "hidden": false,
+      "section": true,
+      "short": true,
+      "spacing": "s",
+      "styles": {}
+    },
+    "d42ec0b5-1e3c-4399-933b-9b0d349b5282": {
+      "@type": "accordion",
+      "collapsed": true,
+      "data": {
+        "blocks": {
+          "020b9b16-2bcc-4ec3-bc73-269d337c0fcc": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "87ee7475-8cad-4cab-bc08-517a57a2b9e4": {
+                "@type": "slate",
+                "plaintext": "Content within each section of the accordion is dynamically loaded when expanded, reducing initial page load times, which is especially useful for content-heavy pages.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Content within each section of the accordion is dynamically loaded when expanded, reducing initial page load times, which is especially useful for content-heavy pages."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "87ee7475-8cad-4cab-bc08-517a57a2b9e4"
+              ]
+            },
+            "title": "Dynamic Content Management"
+          },
+          "44be65d0-f7b3-48aa-9915-3f5a8646b04d": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "8cca84b5-c601-4468-bc76-567a1998a24b": {
+                "@type": "slate",
+                "plaintext": "It adapts seamlessly to different screen sizes, ensuring a consistent and optimized user experience on desktops, tablets, and mobile devices.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "It adapts seamlessly to different screen sizes, ensuring a consistent and optimized user experience on desktops, tablets, and mobile devices."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "8cca84b5-c601-4468-bc76-567a1998a24b"
+              ]
+            },
+            "title": "Responsive Design"
+          },
+          "4e0bab77-05cf-40cd-ade1-a870ed8de960": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "55b7d12f-92db-4a97-afd6-923522b21d63": {
+                "@type": "slate",
+                "plaintext": "Content creators can define how many sections are opened by default, choose the alignment, and apply custom styles to match the website\u2019s design guidelines.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "Content creators can define how many sections are opened by default, choose the alignment, and apply custom styles to match the website\u2019s design guidelines."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "55b7d12f-92db-4a97-afd6-923522b21d63"
+              ]
+            },
+            "title": "Customizable Options"
+          },
+          "bcb0c86a-71c7-4ed4-ad43-d783ae39145e": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "b5d114ad-9ff4-46ee-a691-a3a0488a2971": {
+                "@type": "slate",
+                "plaintext": "The accordion block consists of multiple sections (or panels), each with a title that users can click to expand or collapse the content. This provides a clean, space-saving way to present detailed information.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "The accordion block consists of multiple sections (or panels), each with a title that users can click to expand or collapse the content. This provides a clean, space-saving way to present detailed information."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "b5d114ad-9ff4-46ee-a691-a3a0488a2971"
+              ]
+            },
+            "title": "Expandable Sections"
+          },
+          "f11189d1-be2d-428e-86b1-5d3705bb7425": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "352cfb33-4dc3-4dfa-90f6-ddedbc720a41": {
+                "@type": "slate",
+                "plaintext": "By enabling content to be structured in a more compact way, it helps with SEO since search engines can crawl all sections of the accordion, making it easier for users to find the information they need.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "By enabling content to be structured in a more compact way, it helps with SEO since search engines can crawl all sections of the accordion, making it easier for users to find the information they need."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "352cfb33-4dc3-4dfa-90f6-ddedbc720a41"
+              ]
+            },
+            "title": "SEO Benefits"
+          },
+          "f3cc4879-d78a-4eb7-8c78-87f66d888d06": {
+            "@type": "accordionPanel",
+            "blocks": {
+              "39c65325-1915-482a-b6a0-fe7a0598160b": {
+                "@type": "slate",
+                "plaintext": "It\u2019s designed to be intuitive and easy to use for both content creators and website visitors. The block enables content editors to add multiple panels with just a few clicks.",
+                "value": [
+                  {
+                    "children": [
+                      {
+                        "text": "It\u2019s designed to be intuitive and easy to use for both content creators and website visitors. The block enables content editors to add multiple panels with just a few clicks."
+                      }
+                    ],
+                    "type": "p"
+                  }
+                ]
+              }
+            },
+            "blocks_layout": {
+              "items": [
+                "39c65325-1915-482a-b6a0-fe7a0598160b"
+              ]
+            },
+            "title": "User-friendly Interface"
+          }
+        },
+        "blocks_layout": {
+          "items": [
+            "bcb0c86a-71c7-4ed4-ad43-d783ae39145e",
+            "f3cc4879-d78a-4eb7-8c78-87f66d888d06",
+            "020b9b16-2bcc-4ec3-bc73-269d337c0fcc",
+            "4e0bab77-05cf-40cd-ade1-a870ed8de960",
+            "44be65d0-f7b3-48aa-9915-3f5a8646b04d",
+            "f11189d1-be2d-428e-86b1-5d3705bb7425"
+          ]
+        }
+      },
+      "filtering": false,
+      "headline": "Accordion with arrows on the right",
+      "non_exclusive": true,
+      "right_arrows": true,
+      "styles": {},
+      "title": "Arrows on the right",
+      "title_size": "h3"
+    },
+    "fd1e8431-03db-490a-a3ef-d29775623b19": {
+      "@type": "dividerBlock",
+      "hidden": false,
+      "section": true,
+      "short": true,
+      "spacing": "s",
+      "styles": {}
+    },
+    "fdc62b26-cbf7-47ba-9844-75bfeac0da94": {
+      "@type": "slate",
+      "plaintext": "",
+      "value": [
+        {
+          "children": [
+            {
+              "text": ""
+            }
+          ],
+          "type": "p"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "04416b74-075e-4a75-b941-a8eeb227c5bc",
+      "a5b0f26f-254d-4f32-8928-60c1cbbe5652",
+      "d1a5c1c8-5d01-4a0d-b61d-7cd6e986976d",
+      "fdc62b26-cbf7-47ba-9844-75bfeac0da94",
+      "d42ec0b5-1e3c-4399-933b-9b0d349b5282",
+      "bf253b6e-28f2-41d4-a94d-b8e76b344652",
+      "6e1c52c9-ad7d-4cbb-8223-29c68dbf50dc",
+      "0684ec28-372f-401b-a8dd-c830c85522ae",
+      "5bc3001b-d4fe-4aaf-81a1-2782404063a9",
+      "4d901c73-1967-4286-8ba8-55305cc9f374",
+      "03c9fd67-b7de-449f-afed-d6543b4276f1",
+      "7cd89784-eebc-480b-b5fa-e20a902f0b37",
+      "b0de8a00-514f-4715-909b-1afebc448302",
+      "b520f585-24e2-4c51-9512-3f6f6b2ab450",
+      "a3d17785-921d-4487-9bbc-31cf86e77b79",
+      "869d2af3-5548-44b8-bc0b-0e85c2a1bd1c",
+      "fd1e8431-03db-490a-a3ef-d29775623b19",
+      "3be02b61-77cf-4203-a37c-2e1dfb96c124",
+      "7138dbd1-590b-429a-85c2-757da8ee8b80",
+      "0ad3f1e4-fa88-4c9f-b3b6-97c2ee496454"
+    ]
+  },
+  "contributors": [],
+  "created": "2024-09-27T11:08:25+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "The Volto Accordion Block is particularly helpful for presenting FAQs, long-form content, or any scenario where content needs to be structured in a way that balances detail with readability.",
+  "effective": "2024-09-27T13:08:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "exportimport.versions": {},
+  "id": "accordion-block",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2024-09-27T11:21:51+00:00",
+  "parent": {
+    "@id": "/blocks-1",
+    "@type": "Document",
+    "UID": "fa8fbb4982ee4b99984141bbadd4f673",
+    "description": " Description block support rich text functionality while the Dublin core metadata of this page remains plain text. ",
+    "effective": "2024-09-27T10:57:00+00:00",
+    "image_field": null,
+    "image_scales": {},
+    "review_state": "published",
+    "title": "Blocks",
+    "type_title": "Page"
+  },
+  "preview_caption": null,
+  "preview_image": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Accordion Block",
+  "type_title": "Page",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2024-09-27T11:08:25+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2024-09-27T11:08:36+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}
