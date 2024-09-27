@@ -1125,16 +1125,8 @@
   "language": "##DEFAULT##",
   "layout": "document_view",
   "lock": {
-    "created": "2024-09-27T12:47:38+00:00",
-    "creator": "admin",
-    "creator_name": "admin",
-    "creator_url": "http://nohost/Plone/author/admin",
-    "locked": true,
-    "name": "plone.locking.stealable",
-    "stealable": true,
-    "time": 1727441258.6029491,
-    "timeout": 600,
-    "token": "0.16960906794294683-0.9106153234368978-00105A989226:1727441258.603"
+    "locked": false,
+    "stealable": true
   },
   "modified": "2024-09-27T12:47:04+00:00",
   "parent": {
