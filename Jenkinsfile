@@ -3,7 +3,7 @@ pipeline {
 
   environment {
         GIT_NAME = "eea.kitkat"
-        SONARQUBE_TAGS = "www.eea.europa.eu,www.eea.europa.eu-en,demo-www.eea.europa.eu,climate-advisory-board.europa.eu,forest.eea.europa.eu,biodiversity.europa.eu,insitu.copernicus.eu,clmsdemo.devel6cph.eea.europa.eu,land.copernicus.eu,demo-ied.eea.europa.eu,www.ied.eea.europa.eu-en,ask.copernicus.eu"
+        SONARQUBE_TAGS = "www.eea.europa.eu,www.eea.europa.eu-en,demo-www.eea.europa.eu,climate-advisory-board.europa.eu,forest.eea.europa.eu,biodiversity.europa.eu,insitu.copernicus.eu,clmsdemo.devel6cph.eea.europa.eu,land.copernicus.eu,demo-ied.eea.europa.eu,www.ied.eea.europa.eu-en,water.europa.eu-freshwater"
     }
 
   stages {
