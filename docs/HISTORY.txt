@@ -1,8 +1,10 @@
 Changelog
 =========
 
-8.2-dev0 - (unreleased)
+8.2 - (2025-09-19)
 ---------------------------
+* Change: Fix: use plone.volto:default profile instead of homepage-default
+  [nileshgulia1]
 
 8.1 - (2024-05-09)
 ---------------------------
