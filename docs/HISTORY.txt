@@ -3,7 +3,7 @@ Changelog
 
 8.2 - (2025-09-19)
 ---------------------------
-* Change: Fix: use plone.volto:default profile instead of homepage-default
+* Change: Fix: use plone.volto:default profile instead of default-homepage
   [nileshgulia1]
 
 8.1 - (2024-05-09)
