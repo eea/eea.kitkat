@@ -4,7 +4,6 @@ pipeline {
   environment {
         GIT_NAME = "eea.kitkat"
         SONARQUBE_TAGS = "www.eea.europa.eu,www.eea.europa.eu-en,demo-www.eea.europa.eu,climate-advisory-board.europa.eu,forest.eea.europa.eu,biodiversity.europa.eu,insitu.copernicus.eu,clmsdemo.devel6cph.eea.europa.eu,land.copernicus.eu,demo-ied.eea.europa.eu,www.ied.eea.europa.eu-en,demo-water.devel5cph.eea.europa.eu-freshwater,water.europa.eu-freshwater"
-        ADDONS="eea.kitkat[test]"
     }
 
   stages {
@@ -83,66 +82,6 @@ pipeline {
     stage('Tests') {
       steps {
         parallel(
-
-          // "WWW": {
-          //   node(label: 'docker') {
-          //     script {
-          //       try {
-          //         sh '''docker run -i --name="$BUILD_TAG-www" -e GIT_NAME="$GIT_NAME" -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/www-devel /debug.sh coverage'''
-          //         sh '''mkdir -p xunit-reports; docker cp $BUILD_TAG-www:/plone/instance/parts/xmltestreport/testreports/. xunit-reports/'''
-          //         stash name: "xunit-reports", includes: "xunit-reports/*.xml"
-          //         sh '''docker cp $BUILD_TAG-www:/plone/instance/src/$GIT_NAME/coverage.xml coverage.xml'''
-          //         stash name: "coverage.xml", includes: "coverage.xml"
-          //       } finally {
-          //         sh '''docker rm -v $BUILD_TAG-www'''
-          //       }
-          //       junit 'xunit-reports/*.xml'
-          //     }
-          //   }
-          // },
-
-
-          // "KGS": {
-          //   node(label: 'docker') {
-          //     sh '''docker run -i --rm --name="$BUILD_TAG-kgs" -e GIT_NAME="$GIT_NAME" -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/kgs-devel /debug.sh bin/test --test-path /plone/instance/src/$GIT_NAME -v -vv -s $GIT_NAME'''
-          //   }
-          // },
-
-          //"Plone4": {
-          //  node(label: 'docker') {
-          //    sh '''docker run -i --rm --name="$BUILD_TAG-plone4" -e GIT_BRANCH="$BRANCH_NAME" -e ADDONS="$GIT_NAME" -e DEVELOP="src/$GIT_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/plone-test:4 -v -vv -s $GIT_NAME'''
-          //  }
-          //},
-
-          //"Plone5": {
-          //  node(label: 'docker') {
-          //    sh '''docker run -i --rm --name="$BUILD_TAG-plone5" -e GIT_BRANCH="$BRANCH_NAME" -e ADDONS="$GIT_NAME" -e DEVELOP="src/$GIT_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/plone-test:5 -v -vv -s $GIT_NAME'''
-          //  }
-          //},
-
-          // "Plone5 & Python3": {
-          //   node(label: 'docker') {
-          //     sh '''docker pull eeacms/plone-test:5-python3; docker run -i --rm --pull "always" --name="$BUILD_TAG-python3" -e GIT_BRANCH="$BRANCH_NAME" -e ADDONS="$GIT_NAME" -e DEVELOP="src/$GIT_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/plone-test:5-python3 -v -vv -s $GIT_NAME'''
-          //   }
-          // },
-
-          // "PloneSaaS": {
-          //   node(label: 'docker') {
-          //     script {
-          //      try {
-          //         sh '''docker pull eeacms/plonesaas-devel; docker run -i --name="$BUILD_TAG-plonesaas" -e GIT_NAME="$GIT_NAME" -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/plonesaas-devel /debug.sh coverage'''
-          //         sh '''mkdir -p xunit-reports; docker cp $BUILD_TAG-plonesaas:/plone/instance/parts/xmltestreport/testreports/. xunit-reports/'''
-          //         stash name: "xunit-reports", includes: "xunit-reports/*.xml"
-          //         sh '''docker cp $BUILD_TAG-plonesaas:/plone/instance/src/$GIT_NAME/coverage.xml coverage.xml'''
-          //         stash name: "coverage.xml", includes: "coverage.xml"
-          //       } finally {
-          //         sh '''docker rm -v $BUILD_TAG-plonesaas'''
-          //       }
-          //       junit 'xunit-reports/*.xml'
-          //     }
-          //   }
-          // },
-
           "Plone6 & Python3": {
              node(label: 'docker') {
                sh '''docker run --pull="always" -i --rm --name="$BUILD_TAG" -e GIT_NAME="$GIT_NAME" -e GIT_BRANCH="$BRANCH_NAME" -e DEVELOP="src/$GIT_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/plone-test:6'''}
