@@ -4,6 +4,7 @@ pipeline {
   environment {
         GIT_NAME = "eea.kitkat"
         SONARQUBE_TAGS = "www.eea.europa.eu,www.eea.europa.eu-en,demo-www.eea.europa.eu,climate-advisory-board.europa.eu,forest.eea.europa.eu,biodiversity.europa.eu,insitu.copernicus.eu,clmsdemo.devel6cph.eea.europa.eu,land.copernicus.eu,demo-ied.eea.europa.eu,www.ied.eea.europa.eu-en,demo-water.devel5cph.eea.europa.eu-freshwater,water.europa.eu-freshwater"
+        ADDONS="eea.kitkat[test]"
     }
 
   stages {
@@ -145,8 +146,7 @@ pipeline {
           "Plone6 & Python3": {
              node(label: 'docker') {
                sh '''docker pull eeacms/plone-test:6'''
-              sh '''docker run -i --rm --name="$BUILD_TAG" -e GIT_BRANCH="$BRANCH_NAME" -e ADDONS="$GIT_NAME" -e DEVELOP="src/$GIT_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/plone-test:6'''
-                  sh '''docker run -i --name="$BUILD_TAG-python3" -e GIT_USER="eea" -e GIT_NAME=$GIT_NAME -e GIT_BRANCH="$BRANCH_NAME" -e ADDONS="$GIT_NAME[test]" -e DEVELOP="/app/eea/$GIT_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" -e PIP_PARAMS="-f https://eggrepo.eea.europa.eu/simple/ -f https://code.codesyntax.com/static/public/" eeacms/plone-test:6'''
+              sh '''docker run -i --rm --name="$BUILD_TAG" -e GIT_BRANCH="$BRANCH_NAME" -e ADDONS="$GIT_NAME[test]" -e GIT_USER="eea" -e DEVELOP="src/$GIT_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/plone-test:6'''
             }
            }
         )
