@@ -49,7 +49,6 @@ setup(
             'eea.schema.slate',
             'eea.sentry',
             'eea.volto.policy',
-            'plone.app.testing[test]',
             'collective.taxonomy',
             'plone.volto',
             'plone.restapi',
@@ -58,6 +57,7 @@ setup(
     extras_require={
         'test': [
             'plone.app.testing[test]',
+            'zope-testrunner',
         ],
     },
     entry_points="""
