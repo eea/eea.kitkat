@@ -49,6 +49,7 @@ setup(
             'eea.schema.slate',
             'eea.sentry',
             'eea.volto.policy',
+            'plone.app.testing[test]',
             'collective.taxonomy',
             'plone.volto',
             'plone.restapi',
