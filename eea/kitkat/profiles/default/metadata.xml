@@ -11,6 +11,6 @@
     <dependency>profile-eea.sentry:default</dependency>
     <dependency>profile-eea.volto.policy:default</dependency>
     <dependency>profile-eea.zotero:default</dependency>
-    <dependency>profile-plone.volto:default-homepage</dependency>
+    <dependency>profile-plone.volto:default</dependency>
   </dependencies>
 </metadata>
