@@ -57,7 +57,6 @@ setup(
     extras_require={
         'test': [
             'plone.app.testing[test]',
-            'zope-testrunner',
         ],
     },
     entry_points="""
