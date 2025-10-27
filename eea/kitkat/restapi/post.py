@@ -1,4 +1,3 @@
-# pylint: disable=C0301
 """ @captchaverify POST """
 import json
 import logging

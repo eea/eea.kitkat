@@ -3,6 +3,8 @@ Changelog
 
 8.3-dev0 - (unreleased)
 ---------------------------
+* Change: Replace Python linting to ruff
+  [mihaidobrescu1111 = refs #286821]
 
 8.2 - (2025-09-19)
 ---------------------------
