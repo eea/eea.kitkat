@@ -122,7 +122,7 @@ pipeline {
                 sh '''docker run --pull="always" -i --name="$BUILD_TAG-tests" -e GIT_NAME="$GIT_NAME" -e GIT_BRANCH="$BRANCH_NAME" -e DEVELOP="src/$GIT_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/plone-test:test'''
                 sh '''docker cp $BUILD_TAG-tests:/app/coverage/coverage.xml .'''
                 sh '''docker rm -v $BUILD_TAG-tests'''
-                stash coverage.xml
+                stash includes: 'coverage.xml', name: 'coverage'
             }
           }
         )
@@ -139,7 +139,8 @@ pipeline {
         node(label: 'swarm') {
           script{
             checkout scm
-            unstash "coverage.xml"
+            unstash 'coverage'
+            junit 'coverage.xml'
             def scannerHome = tool 'SonarQubeScanner';
             def nodeJS = tool 'NodeJS11';
             withSonarQubeEnv('Sonarqube') {
