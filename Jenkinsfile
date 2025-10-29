@@ -120,7 +120,7 @@ pipeline {
           "Plone6 & Python3": {
             node(label: 'docker') {
               sh '''docker run --pull="always" -i --name="$BUILD_TAG-tests" -e GIT_NAME="$GIT_NAME" -e GIT_BRANCH="$BRANCH_NAME" -e DEVELOP="src/$GIT_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" eeacms/plone-test:test'''
-              sh '''docker cp -r $BUILD_TAG-tests:/app/coverage ./coverage'''
+              sh '''docker cp $BUILD_TAG-tests:/app/coverage ./coverage'''
               sh '''docker rm -v $BUILD_TAG-tests'''
               stash includes: 'coverage/**', name: 'coverage'
             }
