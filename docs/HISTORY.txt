@@ -1,6 +1,13 @@
 Changelog
 =========
 
+8.3 - (2025-11-18)
+---------------------------
+* Change: Replace Python linting to ruff
+  [mihaidobrescu1111 = refs #286821]
+* Change: Add plone6 tests
+  [mihaidobrescu1111 = refs #293593]
+
 8.2 - (2025-09-19)
 ---------------------------
 * Change: Fix: use plone.volto:default profile instead of default-homepage
