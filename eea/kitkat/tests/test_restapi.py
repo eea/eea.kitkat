@@ -6,7 +6,6 @@ Tests for view classes and installation.
 import unittest
 from plone.app.testing import setRoles
 from plone.app.testing import TEST_USER_ID
-from transaction import commit
 from eea.kitkat.tests.base import FUNCTIONAL_TESTING
 
 
