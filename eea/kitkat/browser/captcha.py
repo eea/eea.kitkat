@@ -28,7 +28,7 @@ class ICaptchaSettings(Interface):
         title=_("Captcha API KEY"), description=("Captcha API KEY"), default=""
     )
 
-    password = schema.TextLine( #betterleaks:allow
+    password = schema.TextLine(  # betterleaks:allow
         title=_("Captcha API SECRET"), description=("Captcha API SECRET"), default=""
     )
 
